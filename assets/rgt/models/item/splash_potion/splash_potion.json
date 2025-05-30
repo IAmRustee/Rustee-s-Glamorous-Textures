@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/splash_overlay",
+    "layer1": "rgt:item/splash_bottle"
+  }
+}
