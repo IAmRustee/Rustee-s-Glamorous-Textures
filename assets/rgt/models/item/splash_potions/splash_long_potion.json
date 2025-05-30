@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "rgt:item/splash_potions/splash_long_potion"
+    }
+}
