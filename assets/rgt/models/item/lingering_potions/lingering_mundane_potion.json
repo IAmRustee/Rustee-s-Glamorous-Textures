@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "rgt:item/lingering_potions/lingering_potion_overlay",
-    "layer1": "rgt:item/lingering_potions/lingering_potion"
+    "layer1": "rgt:item/lingering_potions/lingering_mundane_potion"
   }
 }
