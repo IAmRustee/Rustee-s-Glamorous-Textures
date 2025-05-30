@@ -41,6 +41,7 @@
 
           {
 						"when": [
+              {"potion":"water"},
               {"potion":"night_vision"},{"potion":"long_night_vision"},
               {"potion":"invisibility"},{"potion":"long_invisibility"},
               {"potion":"leaping"},{"potion":"long_leaping"},{"potion":"strong_leaping"},
