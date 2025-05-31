@@ -19,8 +19,8 @@ To DO List:
 > Beacon,
 > Grindstone,
 > Stonecutter,
+> Brewing Stand
 
 - Items
-> Chainmail Armor Set (0/4),
-> Turtle Shell,
-> Clock (0/64),
+> Potions, Splash Potions, Lingering Potions,
+> Ominous Bottle,
