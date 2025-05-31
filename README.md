@@ -1,6 +1,6 @@
 # Rustee's Glamorous Textures
 
-Hello there! IAmRustee and I bring you one of the most glamorous texture packs you will ever lay your eyes upon! This texture pack's goal is to **improve** and **glamorify** the plain vanilla textures for the following while staying as vanilla as possible without relying on mods or mod loaders:
+Hello there! IAmRustee and I bring you one of the most glamorous texture packs you will ever lay your eyes upon! This texture pack's goal is to **improve** and **glamorify** the plain vanilla textures for the following while staying purely vanilla without relying on mods or mod loaders:
 - **Tools and Weapons**
 - **Armors (item)**
 - **Potions**
