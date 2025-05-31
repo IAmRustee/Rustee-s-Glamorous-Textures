@@ -1,6 +1,10 @@
 {
   "pack": {
     "pack_format": 55,
-    "description": "v1.1.6 | New textures for tools and weapons, mob effects, ui and more!"
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 1024
+    },
+    "description": "v1.1.7 alpha | New textures for tools and weapons, mob effects, ui and more!"
   }
 }

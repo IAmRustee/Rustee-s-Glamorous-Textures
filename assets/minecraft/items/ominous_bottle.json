@@ -5,6 +5,13 @@
 		"component":"minecraft:ominous_bottle_amplifier",
 		"cases": [
 			{
+				"when": 0,
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/ominous_bottle/ominous_bottle_1"
+				}
+			},
+			{
 				"when": 1,
 				"model": {
 					"type": "minecraft:model",
@@ -22,7 +29,7 @@
 				"when": 3,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_5"
+					"model": "rgt:item/ominous_bottle/ominous_bottle_4"
 				}
 			},
 			{
