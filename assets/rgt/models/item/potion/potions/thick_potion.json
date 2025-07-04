@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/potion/potions/potion_overlay",
+    "layer1": "rgt:item/potion/potions/thick_potion"
+  }
+}

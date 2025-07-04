@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "rgt:item/potions/long_potion"
+        "layer0": "rgt:item/potion/potions/long_potion"
     }
 }

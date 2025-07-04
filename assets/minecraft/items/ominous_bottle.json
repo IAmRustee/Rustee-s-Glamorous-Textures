@@ -8,42 +8,42 @@
 				"when": 0,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_1"
+					"model": "rgt:item/potion/ominous_bottle/ominous_bottle_1"
 				}
 			},
 			{
 				"when": 1,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_2"
+					"model": "rgt:item/potion/ominous_bottle/ominous_bottle_2"
 				}
 			},
 			{
 				"when": 2,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_3"
+					"model": "rgt:item/potion/ominous_bottle/ominous_bottle_3"
 				}
 			},
 			{
 				"when": 3,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_4"
+					"model": "rgt:item/potion/ominous_bottle/ominous_bottle_4"
 				}
 			},
 			{
 				"when": 4,
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/ominous_bottle/ominous_bottle_5"
+					"model": "rgt:item/potion/ominous_bottle/ominous_bottle_5"
 				}
 			}
 
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/ominous_bottle"
+			"model": "minecraft:item/potion/ominous_bottle"
 		}
 	}
 }

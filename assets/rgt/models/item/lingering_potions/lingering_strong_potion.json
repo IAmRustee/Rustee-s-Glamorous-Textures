@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "rgt:item/lingering_potions/lingering_strong_potion"
-    }
-}

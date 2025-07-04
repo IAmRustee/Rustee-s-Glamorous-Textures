@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "rgt:item/lingering_potions/lingering_long_potion"
+        "layer0": "rgt:item/potion/ominous_bottle/ominous_bottle_1"
     }
 }

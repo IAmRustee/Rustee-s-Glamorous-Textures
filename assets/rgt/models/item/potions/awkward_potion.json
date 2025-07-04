@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "rgt:item/potions/potion_overlay",
-    "layer1": "rgt:item/potions/awkward_potion"
-  }
-}

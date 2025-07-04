@@ -16,7 +16,7 @@
             "when": {"potion":"mundane"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/lingering_potions/lingering_mundane_potion",
+              "model": "rgt:item/potion/lingering_potions/lingering_mundane_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
             }
           }, 
@@ -24,7 +24,7 @@
             "when": {"potion":"thick"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/lingering_potions/lingering_thick_potion",
+              "model": "rgt:item/potion/lingering_potions/lingering_thick_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
               }
           },
@@ -32,7 +32,7 @@
             "when": {"potion":"awkward"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/lingering_potions/lingering_awkward_potion",
+              "model": "rgt:item/potion/lingering_potions/lingering_awkward_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
               }
           },
@@ -67,7 +67,7 @@
             ],
 						"model": {
 							"type": "minecraft:model",
-							"model": "rgt:item/lingering_potions/lingering_potion",
+							"model": "rgt:item/potion/lingering_potions/lingering_potion",
 							"tints": [{"type": "minecraft:potion","default": -13083194}]
 						}
 					}
@@ -96,7 +96,7 @@
 						],
 						"model": {
 							"type":"minecraft:model",
-							"model": "rgt:item/lingering_potions/lingering_long_potion"
+							"model": "rgt:item/potion/lingering_potions/lingering_long_potion"
 						}
 					},
 					{
@@ -113,7 +113,7 @@
 						],
 						"model": {
 							"type":"minecraft:model",
-							"model": "rgt:item/lingering_potions/lingering_strong_potion"
+							"model": "rgt:item/potion/lingering_potions/lingering_strong_potion"
 						}
 					}
 				],

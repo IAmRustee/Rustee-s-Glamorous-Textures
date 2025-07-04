@@ -16,7 +16,7 @@
             "when": {"potion":"mundane"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/potions/mundane_potion",
+              "model": "rgt:item/potion/potions/mundane_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
             }
           }, 
@@ -24,7 +24,7 @@
             "when": {"potion":"thick"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/potions/thick_potion",
+              "model": "rgt:item/potion/potions/thick_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
               }
           },
@@ -32,7 +32,7 @@
             "when": {"potion":"awkward"},
             "model": {
               "type": "minecraft:model",
-              "model": "rgt:item/potions/awkward_potion",
+              "model": "rgt:item/potion/potions/awkward_potion",
               "tints": [{"type": "minecraft:potion","default": -13083194}]
               }
           },
@@ -67,7 +67,7 @@
             ],
 						"model": {
 							"type": "minecraft:model",
-							"model": "rgt:item/potions/potion",
+							"model": "rgt:item/potion/potions/potion",
 							"tints": [{"type": "minecraft:potion","default": -13083194}]
 						}
 					}
@@ -96,7 +96,7 @@
 						],
 						"model": {
 							"type":"minecraft:model",
-							"model": "rgt:item/potions/long_potion"
+							"model": "rgt:item/potion/potions/long_potion"
 						}
 					},
 					{
@@ -113,7 +113,7 @@
 						],
 						"model": {
 							"type":"minecraft:model",
-							"model": "rgt:item/potions/strong_potion"
+							"model": "rgt:item/potion/potions/strong_potion"
 						}
 					}
 				],
