@@ -1,7 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/netherite_boots",
-    "layer1": "rgt:item/trim/netherite/boots/netherite_boots_trim_emerald"
+    "layer0": "rgt:item/trim/netherite/boots/netherite_boots_trim_emerald"
   }
 }
