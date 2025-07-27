@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:fireworks",
+        "cases": [
+          {
+            "when": { "flight_duration": 1 },
+            "model": {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_rocket/firework_duration_1"
+            }
+          },
+          {
+            "when": { "flight_duration": 2 },
+            "model": {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_rocket/firework_duration_2"
+            }
+          },
+          {
+            "when": { "flight_duration": 3 },
+            "model": {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_rocket/firework_duration_3"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/firework_rocket"
+        }
+      }
+    ]
+  }
+}
