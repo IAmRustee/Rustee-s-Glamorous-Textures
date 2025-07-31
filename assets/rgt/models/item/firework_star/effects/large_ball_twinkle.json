@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "rgt:item/firework_star/effects/large_ball_twinkle"
+    }
+}

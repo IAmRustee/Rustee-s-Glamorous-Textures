@@ -1,0 +1,301 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "rgt:item/firework_star/shapes/burst",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:firework",
+              "default": 4278190080
+            }
+          ]
+        },
+        {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rgt:item/firework_star/effects/twinkle"
+          },
+          "on_false": {
+            "type": "minecraft:empty"
+          },
+          "property": "minecraft:component",
+          "predicate": "minecraft:firework_explosion",
+          "value": {
+            "has_twinkle": true
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rgt:item/firework_star/effects/trail"
+          },
+          "on_false": {
+            "type": "minecraft:empty"
+          },
+          "property": "minecraft:component",
+          "predicate": "minecraft:firework_explosion",
+          "value": {
+            "has_trail": true
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "rgt:item/firework_star/shapes/creeper",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:firework",
+                "default": 4278190080
+              }
+            ]
+          },
+          {
+            "type": "minecraft:condition",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_star/effects/twinkle"
+            },
+            "on_false": {
+              "type": "minecraft:empty"
+            },
+            "property": "minecraft:component",
+            "predicate": "minecraft:firework_explosion",
+            "value": {
+              "has_twinkle": true
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_star/effects/trail"
+            },
+            "on_false": {
+              "type": "minecraft:empty"
+            },
+            "property": "minecraft:component",
+            "predicate": "minecraft:firework_explosion",
+            "value": {
+              "has_trail": true
+            }
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "rgt:item/firework_star/shapes/star",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:firework",
+                  "default": 4278190080
+                }
+              ]
+            },
+            {
+              "type": "minecraft:condition",
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "rgt:item/firework_star/effects/twinkle"
+              },
+              "on_false": {
+                "type": "minecraft:empty"
+              },
+              "property": "minecraft:component",
+              "predicate": "minecraft:firework_explosion",
+              "value": {
+                "has_twinkle": true
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "rgt:item/firework_star/effects/trail"
+              },
+              "on_false": {
+                "type": "minecraft:empty"
+              },
+              "property": "minecraft:component",
+              "predicate": "minecraft:firework_explosion",
+              "value": {
+                "has_trail": true
+              }
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "rgt:item/firework_star/shapes/large_ball",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:firework",
+                    "default": 4278190080
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:condition",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "rgt:item/firework_star/effects/large_ball_twinkle"
+                },
+                "on_false": {
+                  "type": "minecraft:empty"
+                },
+                "property": "minecraft:component",
+                "predicate": "minecraft:firework_explosion",
+                "value": {
+                  "has_twinkle": true
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "rgt:item/firework_star/effects/large_ball_trail"
+                },
+                "on_false": {
+                  "type": "minecraft:empty"
+                },
+                "property": "minecraft:component",
+                "predicate": "minecraft:firework_explosion",
+                "value": {
+                  "has_trail": true
+                }
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "rgt:item/firework_star/shapes/small_ball",
+                  "tints": [
+                    {
+                      "type": "minecraft:constant",
+                      "value": -1
+                    },
+                    {
+                      "type": "minecraft:firework",
+                      "default": 4278190080
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:condition",
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "rgt:item/firework_star/effects/winkle"
+                  },
+                  "on_false": {
+                    "type": "minecraft:empty"
+                  },
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:firework_explosion",
+                  "value": {
+                    "has_twinkle": true
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "rgt:item/firework_star/effects/trail"
+                  },
+                  "on_false": {
+                    "type": "minecraft:empty"
+                  },
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:firework_explosion",
+                  "value": {
+                    "has_trail": true
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/firework_star",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:firework",
+                  "default": -7697782
+                }
+              ]
+            },
+            "property": "minecraft:component",
+            "predicate": "minecraft:firework_explosion",
+            "value": {
+              "shape": "small_ball"
+            }
+          },
+          "property": "minecraft:component",
+          "predicate": "minecraft:firework_explosion",
+          "value": {
+            "shape": "large_ball"
+          }
+        },
+        "property": "minecraft:component",
+        "predicate": "minecraft:firework_explosion",
+        "value": {
+          "shape": "star"
+        }
+      },
+      "property": "minecraft:component",
+      "predicate": "minecraft:firework_explosion",
+      "value": {
+        "shape": "creeper"
+      }
+    },
+    "property": "minecraft:component",
+    "predicate": "minecraft:firework_explosion",
+    "value": {
+      "shape": "burst"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/firework_star/shapes/small_ball",
+    "layer1": "rgt:item/firework_star/shapes/small_ball_overlay"
+  }
+}
