@@ -64,7 +64,7 @@
         },
         "on_false": {
         "type": "minecraft:model",
-        "model": "rgt:item/firework_rocket/firework_duration_4",
+        "model": "rgt:item/firework_rocket/firework_duration_3",
         "tints": [
           {
             "type": "minecraft:constant",
