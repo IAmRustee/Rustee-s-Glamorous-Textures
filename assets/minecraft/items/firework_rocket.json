@@ -1,39 +1,91 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
-      {
-        "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:fireworks",
-        "cases": [
-          {
-            "when": { "flight_duration": 1 },
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/firework_rocket/firework_duration_1"
-            }
-          },
-          {
-            "when": { "flight_duration": 2 },
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/firework_rocket/firework_duration_2"
-            }
-          },
-          {
-            "when": { "flight_duration": 3 },
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/firework_rocket/firework_duration_3"
-            }
-          }
-        ],
-        "fallback": {
+    "type": "minecraft:condition",
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
           "type": "minecraft:model",
-          "model": "minecraft:item/firework_rocket"
+          "model": "rgt:item/firework_rocket/firework_duration_1",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:firework",
+              "default": 4278190080
+            }
+          ]
         }
-      }
-    ]
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model":  "rgt:item/firework_rocket/firework_duration_2",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:firework",
+                "default": 4278190080
+              }
+            ]
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model":  "rgt:item/firework_rocket/firework_duration_3",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:firework",
+                  "default": 4278190080
+                }
+              ]
+            }
+          ]
+        },
+        "on_false": {
+        "type": "minecraft:model",
+        "model": "rgt:item/firework_rocket/firework_duration_4",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -1
+                },
+                {
+               "type": "minecraft:firework",
+              "default": -7697782
+            }
+          ]
+        },
+        "property": "minecraft:component",
+        "predicate": "minecraft:fireworks",
+        "value": {"flight_duration": 3}
+      },
+      "property": "minecraft:component",
+      "predicate": "minecraft:fireworks",
+      "value": {"flight_duration": 2}
+    },
+    "property": "minecraft:component",
+    "predicate": "minecraft:fireworks",
+    "value": {"flight_duration": 1}
   }
 }

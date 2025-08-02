@@ -226,7 +226,7 @@
                   "type": "minecraft:condition",
                   "on_true": {
                     "type": "minecraft:model",
-                    "model": "rgt:item/firework_star/effects/winkle"
+                    "model": "rgt:item/firework_star/effects/twinkle"
                   },
                   "on_false": {
                     "type": "minecraft:empty"
