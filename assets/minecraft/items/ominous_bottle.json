@@ -43,7 +43,7 @@
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/potion/ominous_bottle"
+			"model": "rgt:item/potion/ominous_bottle/ominous_bottle_max"
 		}
 	}
 }

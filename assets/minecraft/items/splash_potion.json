@@ -8,7 +8,7 @@
         "component": "minecraft:potion_contents",
         "fallback": {
           "type": "minecraft:model",
-					"model": "minecraft:item/splash_potion",
+					"model": "rgt:item/potion/splash_potions/splash_potion_uncraftable",
 					"tints": [{"type": "minecraft:potion","default": -13083194}]
         },
         "cases": [

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/firework_rocket/firework_duration_max"
+  }
+}

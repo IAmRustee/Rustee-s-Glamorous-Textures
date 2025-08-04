@@ -8,7 +8,7 @@
         "component": "minecraft:potion_contents",
         "fallback": {
           "type": "minecraft:model",
-					"model": "minecraft:item/lingering_potion",
+					"model": "rgt:item/potion/lingering_potions/lingering_potion_uncraftable",
 					"tints": [{"type": "minecraft:potion","default": -13083194}]
         },
         "cases": [
