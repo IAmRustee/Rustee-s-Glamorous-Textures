@@ -1,0 +1,604 @@
+{
+"model": {
+  "type": "minecraft:condition",
+  "property": "minecraft:component",
+  "predicate": "minecraft:stored_enchantments",
+  "value": [
+    {
+      "enchantments": "minecraft:wind_burst",
+      "levels": {
+      "min": 1
+      }
+    }
+  ],
+  "on_true": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:stored_enchantments",
+    "cases": [
+      {
+        "when": [{"minecraft:wind_burst": 1}],
+        "model": {
+          "model": "rgt:item/enchanted_books/wind_burst_1",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "when": [{"minecraft:wind_burst": 2}],
+        "model": {
+          "model": "rgt:item/enchanted_books/wind_burst_2",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "when": [{"minecraft:wind_burst": 3}],
+        "model": {
+          "model": "rgt:item/enchanted_books/wind_burst_3",
+          "type": "minecraft:model"
+        }
+      }
+    ],
+    "fallback": {
+      "model": "rgt:item/enchanted_books/wind_burst_3",
+      "type": "minecraft:model"
+    }
+  },
+  "on_false": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:stored_enchantments",
+    "value": [
+      {
+        "enchantments": "minecraft:riptide",
+        "levels": {
+          "min": 1
+        }
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:stored_enchantments",
+      "cases": [
+        {
+          "when": [{"minecraft:riptide": 1}],
+          "model": {
+            "model": "rgt:item/enchanted_books/riptide_1",
+            "type": "minecraft:model"
+          }
+        },
+        {
+          "when": [{"minecraft:riptide": 2}],
+          "model": {
+            "model": "rgt:item/enchanted_books/riptide_2",
+            "type": "minecraft:model"
+          }
+        },
+        {
+          "when": [{"minecraft:riptide": 3}],
+          "model": {
+            "model": "rgt:item/enchanted_books/riptide_3",
+            "type": "minecraft:model"
+          }
+        }
+      ],
+      "fallback": {
+        "model": "rgt:item/enchanted_books/riptide_3",
+        "type": "minecraft:model"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:stored_enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:loyalty",
+          "levels": {
+            "min": 1
+          }
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:stored_enchantments",
+        "cases": [
+          {
+            "when": [{"minecraft:loyalty": 1}],
+            "model": {
+              "model": "rgt:item/enchanted_books/loyalty_1",
+              "type": "minecraft:model"
+            }
+          },
+          {
+            "when": [{"minecraft:loyalty": 2}],
+            "model": {
+              "model": "rgt:item/enchanted_books/loyalty_2",
+              "type": "minecraft:model"
+            }
+          },
+          {
+            "when": [{"minecraft:loyalty": 3}],
+            "model": {
+              "model": "rgt:item/enchanted_books/loyalty_3",
+              "type": "minecraft:model"
+            }
+          }
+        ],
+        "fallback": {
+          "model": "rgt:item/enchanted_books/loyalty_3",
+          "type": "minecraft:model"
+        }
+      },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:stored_enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:channeling",
+              "levels": {
+                "min": 1
+              }
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:stored_enchantments",
+            "cases": [
+              {
+                "when": [{"minecraft:channeling": 1}],
+                "model": {
+                  "model": "rgt:item/enchanted_books/channeling",
+                  "type": "minecraft:model"
+                }
+              }
+            ],
+            "fallback": {
+              "model": "rgt:item/enchanted_books/channeling",
+              "type": "minecraft:model"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:stored_enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:frost_walker",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:component",
+              "component": "minecraft:stored_enchantments",
+              "cases": [
+                {
+                  "when": [{"minecraft:frost_walker": 1}],
+                  "model": {
+                    "model": "rgt:item/enchanted_books/frost_walker_1",
+                    "type": "minecraft:model"
+                  }
+                },
+                {
+                  "when": [{"minecraft:frost_walker": 2}],
+                  "model": {
+                    "model": "rgt:item/enchanted_books/frost_walker_2",
+                    "type": "minecraft:model"
+                  }
+                }
+              ],
+              "fallback": {
+                "model": "rgt:item/enchanted_books/frost_walker_2",
+                "type": "minecraft:model"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:stored_enchantments",
+              "value": [
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:stored_enchantments",
+                "cases": [
+                  {
+                    "when": [{"minecraft:fire_aspect": 1}],
+                    "model": {
+                      "model": "rgt:item/enchanted_books/fire_aspect_1",
+                      "type": "minecraft:model"
+                    }
+                  },
+                  {
+                    "when": [{"minecraft:fire_aspect": 2}],
+                    "model": {
+                      "model": "rgt:item/enchanted_books/fire_aspect_2",
+                      "type": "minecraft:model"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "model": "rgt:item/enchanted_books/fire_aspect_2",
+                  "type": "minecraft:model"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:stored_enchantments",
+                "value": [
+                  {
+                    "enchantments": "minecraft:infinity",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ],
+                "on_true": {
+                  "type": "minecraft:select",
+                  "property": "minecraft:component",
+                  "component": "minecraft:stored_enchantments",
+                  "cases": [
+                    {
+                      "when": [{"minecraft:infinity": 1}],
+                      "model": {
+                        "model": "rgt:item/enchanted_books/infinity",
+                        "type": "minecraft:model"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "model": "rgt:item/enchanted_books/infinity",
+                    "type": "minecraft:model"
+                  }
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:stored_enchantments",
+                  "value": [
+                    {
+                      "enchantments": "minecraft:flame",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ],
+                  "on_true": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:component",
+                    "component": "minecraft:stored_enchantments",
+                    "cases": [
+                      {
+                        "when": [{"minecraft:flame": 1}],
+                        "model": {
+                          "model": "rgt:item/enchanted_books/flame",
+                          "type": "minecraft:model"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "model": "rgt:item/enchanted_books/flame",
+                      "type": "minecraft:model"
+                    }
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:stored_enchantments",
+                    "value": [
+                      {
+                        "enchantments": "minecraft:multishot",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ],
+                    "on_true": {
+                      "type": "minecraft:select",
+                      "property": "minecraft:component",
+                      "component": "minecraft:stored_enchantments",
+                      "cases": [
+                        {
+                          "when": [{"minecraft:multishot": 1}],
+                          "model": {
+                            "model": "rgt:item/enchanted_books/multishot",
+                            "type": "minecraft:model"
+                          }
+                        }
+                      ],
+                      "fallback": {
+                        "model": "rgt:item/enchanted_books/multishot",
+                        "type": "minecraft:model"
+                      }
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:stored_enchantments",
+                      "value": [
+                        {
+                          "enchantments": "minecraft:piercing",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ],
+                      "on_true": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:component",
+                        "component": "minecraft:stored_enchantments",
+                        "cases": [
+                          {
+                            "when": [{"minecraft:piercing": 1}],
+                            "model": {
+                              "model": "rgt:item/enchanted_books/piercing_1",
+                              "type": "minecraft:model"
+                            }
+                          },
+                          {
+                            "when": [{"minecraft:piercing": 2}],
+                            "model": {
+                              "model": "rgt:item/enchanted_books/piercing_2",
+                              "type": "minecraft:model"
+                            }
+                          },
+                          {
+                            "when": [{"minecraft:piercing": 3}],
+                            "model": {
+                              "model": "rgt:item/enchanted_books/piercing_3",
+                              "type": "minecraft:model"
+                            }
+                          },
+                          {
+                            "when": [{"minecraft:piercing": 4}],
+                            "model": {
+                              "model": "rgt:item/enchanted_books/piercing_4",
+                              "type": "minecraft:model"
+                            }
+                        }
+                        ],
+                        "fallback": {
+                          "model": "rgt:item/enchanted_books/piercing_4",
+                          "type": "minecraft:model"
+                        }
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:stored_enchantments",
+                        "value": [
+                          {
+                            "enchantments": "minecraft:fortune",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ],
+                        "on_true": {
+                          "type": "minecraft:select",
+                          "property": "minecraft:component",
+                          "component": "minecraft:stored_enchantments",
+                          "cases": [
+                            {
+                              "when": [{"minecraft:fortune": 1}],
+                              "model": {
+                                "model": "rgt:item/enchanted_books/fortune_1",
+                                "type": "minecraft:model"
+                              }
+                            },
+                            {
+                              "when": [{"minecraft:fortune": 2}],
+                              "model": {
+                                "model": "rgt:item/enchanted_books/fortune_2",
+                                "type": "minecraft:model"
+                              }
+                            },
+                            {
+                              "when": [{"minecraft:fortune": 3}],
+                              "model": {
+                                "model": "rgt:item/enchanted_books/fortune_3",
+                                "type": "minecraft:model"
+                              }
+                            }
+                          ],
+                          "fallback": {
+                            "model": "rgt:item/enchanted_books/fortune_3",
+                            "type": "minecraft:model"
+                          }
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:stored_enchantments",
+                          "value": [
+                            {
+                              "enchantments": "minecraft:silk_touch",
+                              "levels": {
+                                "min": 1
+                              }
+                            }
+                          ],
+                          "on_true": {
+                            "type": "minecraft:select",
+                            "property": "minecraft:component",
+                            "component": "minecraft:stored_enchantments",
+                            "cases": [
+                              {
+                                "when": [{"minecraft:silk_touch": 1}],
+                                "model": {
+                                  "model": "rgt:item/enchanted_books/silk_touch",
+                                  "type": "minecraft:model"
+                                }
+                              }
+                            ],
+                            "fallback": {
+                              "model": "rgt:item/enchanted_books/silk_touch",
+                              "type": "minecraft:model"
+                            }
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:stored_enchantments",
+                            "value": [
+                              {
+                                "enchantments": "minecraft:thorns",
+                                "levels": {
+                                  "min": 1
+                                }
+                              }
+                            ],
+                            "on_true": {
+                              "type": "minecraft:select",
+                              "property": "minecraft:component",
+                              "component": "minecraft:stored_enchantments",
+                              "cases": [
+                                {
+                                  "when": [{"minecraft:thorns": 1}],
+                                  "model": {
+                                    "model": "rgt:item/enchanted_books/thorns_1",
+                                    "type": "minecraft:model"
+                                  }
+                                },
+                                {
+                                  "when": [{"minecraft:thorns": 2}],
+                                  "model": {
+                                    "model": "rgt:item/enchanted_books/thorns_2",
+                                    "type": "minecraft:model"
+                                  }
+                                },
+                                {
+                                  "when": [{"minecraft:thorns": 3}],
+                                  "model": {
+                                    "model": "rgt:item/enchanted_books/thorns_3",
+                                    "type": "minecraft:model"
+                                  }
+                                }
+                              ],
+                              "fallback": {
+                                "model": "rgt:item/enchanted_books/thorns_3",
+                                "type": "minecraft:model"
+                              }
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:stored_enchantments",
+                              "value": [
+                                {
+                                  "enchantments": "minecraft:soul_speed",
+                                  "levels": {
+                                    "min": 1
+                                  }
+                                }
+                              ],
+                              "on_true": {
+                                "type": "minecraft:select",
+                                "property": "minecraft:component",
+                                "component": "minecraft:stored_enchantments",
+                                "cases": [
+                                  {
+                                    "when": [{"minecraft:soul_speed": 1}],
+                                    "model": {
+                                      "model": "rgt:item/enchanted_books/soul_speed_1",
+                                      "type": "minecraft:model"
+                                    }
+                                  },
+                                  {
+                                    "when": [{"minecraft:soul_speed": 2}],
+                                    "model": {
+                                      "model": "rgt:item/enchanted_books/soul_speed_2",
+                                      "type": "minecraft:model"
+                                    }
+                                  },
+                                  {
+                                    "when": [{"minecraft:soul_speed": 3}],
+                                    "model": {
+                                      "model": "rgt:item/enchanted_books/soul_speed_3",
+                                      "type": "minecraft:model"
+                                    }
+                                  }
+                                ],
+                                "fallback": {
+                                  "model": "rgt:item/enchanted_books/soul_speed_3",
+                                  "type": "minecraft:model"
+                                }
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:stored_enchantments",
+                                "value": [
+                                  {
+                                    "enchantments": "minecraft:swift_sneak",
+                                    "levels": {
+                                      "min": 1
+                                    }
+                                  }
+                                ],
+                                "on_true": {
+                                  "type": "minecraft:select",
+                                  "property": "minecraft:component",
+                                  "component": "minecraft:stored_enchantments",
+                                  "cases": [
+                                    {
+                                      "when": [{"minecraft:swift_sneak": 1}],
+                                      "model": {
+                                        "model": "rgt:item/enchanted_books/swift_sneak_1",
+                                        "type": "minecraft:model"
+                                      }
+                                    },
+                                    {
+                                      "when": [{"minecraft:swift_sneak": 2}],
+                                      "model": {
+                                        "model": "rgt:item/enchanted_books/swift_sneak_2",
+                                        "type": "minecraft:model"
+                                      }
+                                    },
+                                    {
+                                      "when": [{"minecraft:swift_sneak": 3}],
+                                      "model": {
+                                        "model": "rgt:item/enchanted_books/swift_sneak_3",
+                                        "type": "minecraft:model"
+                                      }
+                                    }
+                                  ],
+                                  "fallback": {
+                                    "model": "rgt:item/enchanted_books/swift_sneak_3",
+                                    "type": "minecraft:model"
+                                  }
+                                },
+                                "on_false": {
+                                  "model": "minecraft:enchanted_book",
+                                  "type": "minecraft:model"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
