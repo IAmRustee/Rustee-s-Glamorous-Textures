@@ -123,22 +123,8 @@
             }
           ],
           "on_true": {
-            "type": "minecraft:select",
-            "property": "minecraft:component",
-            "component": "minecraft:stored_enchantments",
-            "cases": [
-              {
-                "when": [{"minecraft:channeling": 1}],
-                "model": {
-                  "model": "rgt:item/enchanted_books/channeling",
-                  "type": "minecraft:model"
-                }
-              }
-            ],
-            "fallback": {
-              "model": "rgt:item/enchanted_books/channeling",
-              "type": "minecraft:model"
-            }
+            "type": "minecraft:model",
+            "model": "rgt:item/enchanted_books/channeling"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -213,22 +199,8 @@
                   }
                 ],
                 "on_true": {
-                  "type": "minecraft:select",
-                  "property": "minecraft:component",
-                  "component": "minecraft:stored_enchantments",
-                  "cases": [
-                    {
-                      "when": [{"minecraft:infinity": 1}],
-                      "model": {
-                        "model": "rgt:item/enchanted_books/infinity",
-                        "type": "minecraft:model"
-                      }
-                    }
-                  ],
-                  "fallback": {
-                    "model": "rgt:item/enchanted_books/infinity",
-                    "type": "minecraft:model"
-                  }
+                	"type": "minecraft:model",
+                  "model": "rgt:item/enchanted_books/infinity"
                 },
                 "on_false": {
                   "type": "minecraft:condition",
@@ -243,22 +215,8 @@
                     }
                   ],
                   "on_true": {
-                    "type": "minecraft:select",
-                    "property": "minecraft:component",
-                    "component": "minecraft:stored_enchantments",
-                    "cases": [
-                      {
-                        "when": [{"minecraft:flame": 1}],
-                        "model": {
-                          "model": "rgt:item/enchanted_books/flame",
-                          "type": "minecraft:model"
-                        }
-                      }
-                    ],
-                    "fallback": {
-                      "model": "rgt:item/enchanted_books/flame",
-                      "type": "minecraft:model"
-                    }
+                    "type": "minecraft:model",
+                    "model": "rgt:item/enchanted_books/flame"
                   },
                   "on_false": {
                     "type": "minecraft:condition",
@@ -273,22 +231,8 @@
                       }
                     ],
                     "on_true": {
-                      "type": "minecraft:select",
-                      "property": "minecraft:component",
-                      "component": "minecraft:stored_enchantments",
-                      "cases": [
-                        {
-                          "when": [{"minecraft:multishot": 1}],
-                          "model": {
-                            "model": "rgt:item/enchanted_books/multishot",
-                            "type": "minecraft:model"
-                          }
-                        }
-                      ],
-                      "fallback": {
-                        "model": "rgt:item/enchanted_books/multishot",
-                        "type": "minecraft:model"
-                      }
+                      "type": "minecraft:model",
+                      "model": "rgt:item/enchanted_books/multishot"
                     },
                     "on_false": {
                       "type": "minecraft:condition",
@@ -384,22 +328,8 @@
                             }
                           ],
                           "on_true": {
-                            "type": "minecraft:select",
-                            "property": "minecraft:component",
-                            "component": "minecraft:stored_enchantments",
-                            "cases": [
-                              {
-                                "when": [{"minecraft:silk_touch": 1}],
-                                "model": {
-                                  "model": "rgt:item/enchanted_books/silk_touch",
-                                  "type": "minecraft:model"
-                                }
-                              }
-                            ],
-                            "fallback": {
-                              "model": "rgt:item/enchanted_books/silk_touch",
-                              "type": "minecraft:model"
-                            }
+                            "type": "minecraft:model",
+                            "model": "rgt:item/enchanted_books/silk_touch"
                           },
                           "on_false": {
                             "type": "minecraft:condition",
@@ -562,22 +492,8 @@
                                       }
                                     ],
                                     "on_true": {
-                                      "type": "minecraft:select",
-                                      "property": "minecraft:component",
-                                      "component": "minecraft:stored_enchantments",
-                                      "cases": [
-                                        {
-                                          "when": [{"minecraft:aqua_affinity": 1}],
-                                          "model": {
-                                            "model": "rgt:item/enchanted_books/aqua_affinity",
-                                            "type": "minecraft:model"
-                                          }
-                                        }
-                                      ],
-                                      "fallback": {
-                                        "model": "rgt:item/enchanted_books/aqua_affinity",
-                                        "type": "minecraft:model"
-                                      }
+                                      "type": "minecraft:model",
+                                      "model": "rgt:item/enchanted_books/aqua_affinity"
                                     },
                                     "on_false": {
                                       "type": "minecraft:condition",
@@ -1171,28 +1087,28 @@
 																																		"component": "minecraft:stored_enchantments",
 																																		"cases": [
 																																			{
-																																				"when": [{"minecraft:template": 1}],
+																																				"when": [{"minecraft:power": 1}],
 																																				"model": {
 																																					"model": "rgt:item/enchanted_books/power_1",
 																																					"type": "minecraft:model"
 																																				}
 																																			},
 																																			{
-																																				"when": [{"minecraft:template": 2}],
+																																				"when": [{"minecraft:power": 2}],
 																																				"model": {
 																																					"model": "rgt:item/enchanted_books/power_2",
 																																					"type": "minecraft:model"
 																																				}
 																																			},
 																																			{
-																																				"when": [{"minecraft:template": 3}],
+																																				"when": [{"minecraft:power": 3}],
 																																				"model": {
 																																					"model": "rgt:item/enchanted_books/power_3",
 																																					"type": "minecraft:model"
 																																				}
 																																			},
 																																			{
-																																				"when": [{"minecraft:template": 4}],
+																																				"when": [{"minecraft:power": 4}],
 																																				"model": {
 																																					"model": "rgt:item/enchanted_books/power_4",
 																																					"type": "minecraft:model"
@@ -1495,22 +1411,8 @@
 																																									}
 																																								],
 																																								"on_true": {
-																																									"type": "minecraft:select",
-																																									"property": "minecraft:component",
-																																									"component": "minecraft:stored_enchantments",
-																																									"cases": [
-																																										{
-																																											"when": [{"minecraft:mending": 1}],
-																																											"model": {
-																																												"model": "rgt:item/enchanted_books/mending",
-																																												"type": "minecraft:model"
-																																											}
-																																										}
-																																									],
-																																									"fallback": {
-																																										"model": "rgt:item/enchanted_books/mending",
-																																										"type": "minecraft:model"
-																																									}
+																																									"type": "minecraft:model",
+																																									"model": "rgt:item/enchanted_books/mending"
 																																								},
 																																								"on_false": {
 																																									"type": "minecraft:condition",
@@ -1562,22 +1464,8 @@
 																																											}
 																																										],
 																																										"on_true": {
-																																											"type": "minecraft:select",
-																																											"property": "minecraft:component",
-																																											"component": "minecraft:stored_enchantments",
-																																											"cases": [
-																																												{
-																																													"when": [{"minecraft:vanishing_curse": 1}],
-																																													"model": {
-																																														"model": "rgt:item/enchanted_books/vanishing_curse",
-																																														"type": "minecraft:model"
-																																													}
-																																												}
-																																											],
-																																											"fallback": {
-																																												"model": "rgt:item/enchanted_books/vanishing_curse",
-																																												"type": "minecraft:model"
-																																											}
+																																											"type": "minecraft:model",
+																																											"model": "rgt:item/enchanted_books/vanishing_curse"
 																																										},
 																																										"on_false": {
 																																											"type": "minecraft:condition",
@@ -1592,22 +1480,8 @@
 																																												}
 																																											],
 																																											"on_true": {
-																																												"type": "minecraft:select",
-																																												"property": "minecraft:component",
-																																												"component": "minecraft:stored_enchantments",
-																																												"cases": [
-																																													{
-																																														"when": [{"minecraft:binding_curse": 1}],
-																																														"model": {
-																																															"model": "rgt:item/enchanted_books/binding_curse",
-																																															"type": "minecraft:model"
-																																														}
-																																													}
-																																												],
-																																												"fallback": {
-																																													"model": "rgt:item/enchanted_books/binding_curse",
-																																													"type": "minecraft:model"
-																																												}
+																																												"type": "minecraft:model",
+																																												"model": "rgt:item/enchanted_books/binding_curse"
 																																											},
 																																											"on_false": {
 																																												"model": "minecraft:enchanted_book",
