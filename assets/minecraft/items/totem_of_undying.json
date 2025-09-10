@@ -10,6 +10,13 @@
 					"type": "minecraft:model",
 					"model": "rgt:item/easter_eggs/totem_of_slashkig"
 				}
+			},
+			{
+				"when": "Totem of the Void",
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/totem_of_the_void"
+				}
 			}
 		],
 		"fallback": {
