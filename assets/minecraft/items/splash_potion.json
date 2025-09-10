@@ -1,126 +1,117 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:potion_contents",
+    "cases": [
       {
-        "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:potion_contents",
-        "fallback": {
+        "when": {"potion":"mundane"},
+        "model": {
           "type": "minecraft:model",
-					"model": "rgt:item/potion/splash_potions/splash_potion_uncraftable",
-					"tints": [{"type": "minecraft:potion","default": -13083194}]
-        },
-        "cases": [
-          {
-            "when": {"potion":"mundane"},
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/potion/splash_potions/splash_mundane_potion",
-              "tints": [{"type": "minecraft:potion","default": -13083194}]
-            }
-          }, 
-          {
-            "when": {"potion":"thick"},
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/potion/splash_potions/splash_thick_potion",
-              "tints": [{"type": "minecraft:potion","default": -13083194}]
-              }
-          },
-          {
-            "when": {"potion":"awkward"},
-            "model": {
-              "type": "minecraft:model",
-              "model": "rgt:item/potion/splash_potions/splash_awkward_potion",
-              "tints": [{"type": "minecraft:potion","default": -13083194}]
-              }
-          },
-
-
-
-          {
-						"when": [
-              {"potion":"water"},
-              {"potion":"night_vision"},{"potion":"long_night_vision"},
-              {"potion":"invisibility"},{"potion":"long_invisibility"},
-              {"potion":"leaping"},{"potion":"long_leaping"},{"potion":"strong_leaping"},
-              {"potion":"fire_resistance"},{"potion":"long_fire_resistance"},
-              {"potion":"swiftness"},{"potion":"long_swiftness"},{"potion":"strong_swiftness"},
-              {"potion":"slowness"},{"potion":"long_slowness"},{"potion":"strong_slowness"},
-              {"potion":"turtle_master"},{"potion":"long_turtle_master"},{"potion":"strong_turtle_master"},
-              {"potion":"water_breathing"},{"potion":"long_water_breathing"},
-              {"potion":"healing"},{"potion":"strong_healing"},
-              {"potion":"harming"},{"potion":"strong_harming"},
-              {"potion":"poison"},{"potion":"long_poison"},{"potion":"strong_poison"},
-              {"potion":"regeneration"},{"potion":"long_regeneration"},{"potion":"strong_regeneration"},
-              {"potion":"strength"},{"potion":"long_strength"},{"potion":"strong_strength"},
-              {"potion":"weakness"},{"potion":"long_weakness"},
-              {"potion":"slow_falling"},{"potion":"long_slow_falling"},
-              {"potion":"luck"},
-              {"potion":"wind_charged"},
-              {"potion":"weaving"},
-              {"potion":"oozing"}, 
-              {"potion":"infested"}
-
-
-            ],
-						"model": {
-							"type": "minecraft:model",
-							"model": "rgt:item/potion/splash_potions/splash_potion",
-							"tints": [{"type": "minecraft:potion","default": -13083194}]
-						}
-					}
-        ]
+          "model": "rgt:item/potion/splash_potions/splash_mundane_potion",
+          "tints": [{"type": "minecraft:potion","default": -13083194}]
+        }
+      }, 
+      {
+        "when": {"potion":"thick"},
+        "model": {
+          "type": "minecraft:model",
+          "model": "rgt:item/potion/splash_potions/splash_thick_potion",
+          "tints": [{"type": "minecraft:potion","default": -13083194}]
+          }
       },
       {
-				"type":"minecraft:select",
-				"property": "minecraft:component",
-				"component": "minecraft:potion_contents",
-				"cases": [
-					{
-						"when": [
-							{"potion":"long_night_vision"},
-							{"potion":"long_invisibility"},
-							{"potion":"long_leaping"},
-							{"potion":"long_fire_resistance"},
-							{"potion":"long_swiftness"},
-							{"potion":"long_slowness"},
-							{"potion":"long_turtle_master"},
-							{"potion":"long_water_breathing"},
-							{"potion":"long_poison"},
-							{"potion":"long_regeneration"},
-							{"potion":"long_strength"},
-							{"potion":"long_weakness"},
-							{"potion":"long_slow_falling"}
-						],
-						"model": {
-							"type":"minecraft:model",
-							"model": "rgt:item/potion/splash_potions/splash_long_potion"
-						}
-					},
-					{
-						"when": [
-							{"potion":"strong_leaping"},
-							{"potion":"strong_swiftness"},
-							{"potion":"strong_slowness"},
-							{"potion":"strong_turtle_master"},
-							{"potion":"strong_healing"},
-							{"potion":"strong_harming"},
-							{"potion":"strong_poison"},
-							{"potion":"strong_regeneration"},
-							{"potion":"strong_strength"}
-						],
-						"model": {
-							"type":"minecraft:model",
-							"model": "rgt:item/potion/splash_potions/splash_strong_potion"
-						}
-					}
+        "when": {"potion":"awkward"},
+        "model": {
+          "type": "minecraft:model",
+          "model": "rgt:item/potion/splash_potions/splash_awkward_potion",
+          "tints": [{"type": "minecraft:potion","default": -13083194}]
+        }
+      },
+      {
+				"when": [
+          {"potion":"water"},
+          {"potion":"night_vision"},
+          {"potion":"invisibility"},
+          {"potion":"leaping"},
+          {"potion":"fire_resistance"},
+          {"potion":"swiftness"},
+          {"potion":"slowness"},
+          {"potion":"turtle_master"},
+          {"potion":"water_breathing"},
+          {"potion":"healing"},
+          {"potion":"harming"},
+          {"potion":"poison"},
+          {"potion":"regeneration"},
+          {"potion":"strength"},
+          {"potion":"weakness"},
+          {"potion":"slow_falling"},
+          {"potion":"wind_charged"},
+          {"potion":"weaving"},
+          {"potion":"oozing"}, 
+          {"potion":"infested"}
+        ],
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/potion/splash_potions/splash_potion",
+					"tints": [{"type": "minecraft:potion","default": -13083194}]
+				}
+			},
+      {
+				"when": [
+					{"potion":"long_night_vision"},
+					{"potion":"long_invisibility"},
+					{"potion":"long_leaping"},
+					{"potion":"long_fire_resistance"},
+					{"potion":"long_swiftness"},
+					{"potion":"long_slowness"},
+					{"potion":"long_turtle_master"},
+					{"potion":"long_water_breathing"},
+					{"potion":"long_poison"},
+					{"potion":"long_regeneration"},
+					{"potion":"long_strength"},
+					{"potion":"long_weakness"},
+					{"potion":"long_slow_falling"}
 				],
-				"fallback": {
-					"type": "minecraft:empty"
+				"model": {
+					"type":"minecraft:model",
+					"model": "rgt:item/potion/splash_potions/splash_long_potion",
+					"tints": [{"type": "minecraft:potion","default": -13083194}]
+				}
+			},
+			{
+				"when": [
+					{"potion":"strong_leaping"},
+					{"potion":"strong_swiftness"},
+					{"potion":"strong_slowness"},
+					{"potion":"strong_turtle_master"},
+					{"potion":"strong_healing"},
+					{"potion":"strong_harming"},
+					{"potion":"strong_poison"},
+					{"potion":"strong_regeneration"},
+					{"potion":"strong_strength"}
+				],
+				"model": {
+					"type":"minecraft:model",
+					"model": "rgt:item/potion/splash_potions/splash_strong_potion",
+					"tints": [{"type": "minecraft:potion","default": -13083194}]
+				}
+			},
+      {
+        "when": [
+          {"potion":"luck"}
+        ],
+				"model": {
+					"type":"minecraft:model",
+					"model": "rgt:item/potion/splash_potions/splash_potion_uncraftable",
+					"tints": [{"type": "minecraft:potion","default": -13083194}]
 				}
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+			"model": "rgt:item/potion/splash_potions/splash_potion_uncraftable",
+			"tints": [{"type": "minecraft:potion","default": -13083194}]
+    }
   }
 }
