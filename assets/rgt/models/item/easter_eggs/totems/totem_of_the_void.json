@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "rgt:item/easter_eggs/totem_of_slashkig"
+    "layer0": "rgt:item/easter_eggs/totems/totem_of_the_void"
   }
 }

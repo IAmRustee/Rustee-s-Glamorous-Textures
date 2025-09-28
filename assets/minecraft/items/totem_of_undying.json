@@ -8,14 +8,14 @@
 				"when": "Totem of Slashkig",
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/easter_eggs/totem_of_slashkig"
+					"model": "rgt:item/easter_eggs/totems/totem_of_slashkig"
 				}
 			},
 			{
 				"when": "Totem of the Void",
 				"model": {
 					"type": "minecraft:model",
-					"model": "rgt:item/easter_eggs/totem_of_the_void"
+					"model": "rgt:item/easter_eggs/totems/totem_of_the_void"
 				}
 			}
 		],

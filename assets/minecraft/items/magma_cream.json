@@ -1,0 +1,41 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:component",
+		"component":"minecraft:item_name",
+		"cases": [
+			{
+				"when": [{"text":"Reign of Cubitrix - 1st Place Award","italic":false}],
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/event1/reign_of_cubitrix_trophy_0"
+				}
+			},
+			{
+				"when": [{"text":"Reign of Cubitrix - 2nd Place Award","italic":false}],
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/event1/reign_of_cubitrix_trophy_1"
+				}
+			},
+			{
+				"when": [{"text":"Reign of Cubitrix - 3rd Place Award","italic":false}],
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/event1/reign_of_cubitrix_trophy_2"
+				}
+			},
+			{
+				"when": [{"text":"Reign of Cubitrix - Participation Award","italic":false}],
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/event1/reign_of_cubitrix_trophy_4"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+      "model": "minecraft:item/magma_cream"
+		}
+	}
+}

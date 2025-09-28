@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/easter_eggs/event1/reign_of_cubitrix_trophy_4"
+  }
+}
