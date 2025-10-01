@@ -2,9 +2,6 @@
   "pack": {
     "description": "Rustee's Glamorous Textures 1.3.0-pre_alpha1.3 | New textures for tools and weapons, mob effects, ui and more! Created by IAmRustee.",
     "min_format": [69,0],
-    "max_format": 69,
-
-    "pack_format": 64,
-    "supported_format": [64,69]
+    "max_format": 69
   }
 }
