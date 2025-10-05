@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rgt:item/easter_eggs/totems/justiciars_eye_of_impartiality"
+  }
+}

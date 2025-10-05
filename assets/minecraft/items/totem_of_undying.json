@@ -17,6 +17,27 @@
 					"type": "minecraft:model",
 					"model": "rgt:item/easter_eggs/totems/totem_of_the_void"
 				}
+			},
+			{
+				"when": "Primordial Spirit Idol",
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/totems/primordial_spirit_idol"
+				}
+			},
+			{
+				"when": "Justiciar's Eye of Impartiality",
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/totems/justiciars_eye_of_impartiality"
+				}
+			},
+			{
+				"when": "Royal Heart of Benevolence",
+				"model": {
+					"type": "minecraft:model",
+					"model": "rgt:item/easter_eggs/totems/royal_heart_of_benevolence"
+				}
 			}
 		],
 		"fallback": {
