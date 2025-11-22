@@ -6,7 +6,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "rgt:item/firework_rocket/firework_duration_1",
+          "model": "rgt:item/firework_rocket/duration_1_base",
           "tints": [
             {
               "type": "minecraft:constant",
@@ -21,7 +21,8 @@
         {
           "type": "minecraft:condition",
           "on_true": {
-            "type": "minecraft:empty"
+            "type": "minecraft:model",
+            "model":  "rgt:item/firework_rocket/firework_inert_min"
           },
           "on_false": {
             "type": "minecraft:model",
@@ -40,7 +41,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model":  "rgt:item/firework_rocket/firework_duration_2",
+            "model":  "rgt:item/firework_rocket/duration_2_base",
             "tints": [
               {
                 "type": "minecraft:constant",
@@ -55,7 +56,8 @@
           {
             "type": "minecraft:condition",
             "on_true": {
-              "type": "minecraft:empty"
+              "type": "minecraft:model",
+              "model":  "rgt:item/firework_rocket/firework_inert_min"
             },
             "on_false": {
               "type": "minecraft:model",
@@ -74,7 +76,7 @@
           "models": [
             {
               "type": "minecraft:model",
-              "model":  "rgt:item/firework_rocket/firework_duration_3",
+              "model":  "rgt:item/firework_rocket/duration_3_base",
               "tints": [
                 {
                   "type": "minecraft:constant",
@@ -89,7 +91,8 @@
             {
               "type": "minecraft:condition",
               "on_true": {
-                "type": "minecraft:empty"
+                "type": "minecraft:model",
+                "model":  "rgt:item/firework_rocket/firework_inert_max"
               },
               "on_false": {
                 "type": "minecraft:model",
@@ -106,7 +109,7 @@
           "models": [
             {
               "type": "minecraft:model",
-              "model":  "rgt:item/firework_rocket/firework_duration_max",
+              "model":  "rgt:item/firework_rocket/firework_max",
               "tints": [
                 {
                   "type": "minecraft:constant",
@@ -121,7 +124,8 @@
             {
               "type": "minecraft:condition",
               "on_true": {
-                "type": "minecraft:empty"
+                "type": "minecraft:model",
+                "model":  "rgt:item/firework_rocket/firework_inert_max"
               },
               "on_false": {
                 "type": "minecraft:model",
