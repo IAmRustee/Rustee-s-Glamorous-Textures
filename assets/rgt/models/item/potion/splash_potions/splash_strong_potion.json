@@ -2,7 +2,6 @@
     "parent": "minecraft:item/generated",
     "textures": {
         "layer0": "rgt:item/potion/splash_potions/splash_potion_overlay",
-        "layer1": "rgt:item/potion/splash_potions/splash_potion",
-        "layer2": "rgt:item/potion/splash_potions/splash_strong_potion"
+        "layer1": "rgt:item/potion/splash_potions/splash_strong_potion"
     }
 }
