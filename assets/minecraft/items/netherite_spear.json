@@ -1,0 +1,182 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Bec de Corbin",
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/corbin_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/corbin_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": "Glaive",
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/glaive_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/glaive_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": "Halberd",
+        "model": {
+          "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "rgt:item/spears/item/halberd_spear"
+            },
+            "when": [
+              "gui",
+              "ground",
+              "fixed",
+              "on_shelf"
+            ]
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "rgt:item/spears/in_hand/halberd_spear_in_hand"
+        },
+        "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": "Lucerne",
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/lucerne_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/lucerne_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": "Poleaxe",
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/pole_axe_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/pole_axe_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": "War Scythe",
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/war_scythe_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/war_scythe_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_spear"
+          },
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "on_shelf"
+          ]
+        }
+      ], 
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_spear_in_hand" 
+      },
+      "property": "minecraft:display_context"
+    },
+    "swap_animation_scale": 1.95
+  }
+}

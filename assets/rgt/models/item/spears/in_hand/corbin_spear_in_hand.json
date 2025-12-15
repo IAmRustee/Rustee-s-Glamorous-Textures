@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "rgt:item/spears/in_hand/corbin_spear_in_hand"
+  }
+}
