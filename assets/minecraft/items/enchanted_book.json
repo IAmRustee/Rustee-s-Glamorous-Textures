@@ -27,6 +27,8 @@
 				"type": "minecraft:model",
 				"model": "rgt:item/enchanted_books/curse_of_binding"
 			},
+
+
 			"on_false": {
 				"type": "minecraft:condition",
 				"property": "minecraft:component",
@@ -63,209 +65,217 @@
 							"type": "minecraft:model",
 							"model": "rgt:item/enchanted_books/wind_burst_3"
 						},
+
 						"on_false": {
 							"type": "minecraft:condition",
 							"property": "minecraft:component",
 							"predicate": "minecraft:stored_enchantments",
 							"value": [{
-									"enchantments": "minecraft:riptide",
+									"enchantments": "minecraft:lunge",
 									"levels": {"min": 1, "max": 1}
 							}],
 							"on_true": {
 								"type": "minecraft:model",
-								"model": "rgt:item/enchanted_books/riptide_1"
+								"model": "rgt:item/enchanted_books/lunge_1"
 							},
 							"on_false": {
 								"type": "minecraft:condition",
 								"property": "minecraft:component",
 								"predicate": "minecraft:stored_enchantments",
 								"value": [{
-										"enchantments": "minecraft:riptide",
+										"enchantments": "minecraft:lunge",
 										"levels": {"min": 2, "max": 2}
 								}],
 								"on_true": {
 									"type": "minecraft:model",
-									"model": "rgt:item/enchanted_books/riptide_2"
+									"model": "rgt:item/enchanted_books/lunge_2"
 								},
 								"on_false": {
 									"type": "minecraft:condition",
 									"property": "minecraft:component",
 									"predicate": "minecraft:stored_enchantments",
 									"value": [{
-											"enchantments": "minecraft:riptide",
+											"enchantments": "minecraft:lunge",
 											"levels": {"min": 3, "max": 3}
 									}],
 									"on_true": {
 										"type": "minecraft:model",
-										"model": "rgt:item/enchanted_books/riptide_3"
+										"model": "rgt:item/enchanted_books/lunge_3"
 									},
+									
 									"on_false": {
 										"type": "minecraft:condition",
 										"property": "minecraft:component",
 										"predicate": "minecraft:stored_enchantments",
 										"value": [{
-												"enchantments": "minecraft:loyalty",
+												"enchantments": "minecraft:riptide",
 												"levels": {"min": 1, "max": 1}
 										}],
+
 										"on_true": {
 											"type": "minecraft:model",
-											"model": "rgt:item/enchanted_books/loyalty_1"
+											"model": "rgt:item/enchanted_books/riptide_1"
 										},
 										"on_false": {
 											"type": "minecraft:condition",
 											"property": "minecraft:component",
 											"predicate": "minecraft:stored_enchantments",
 											"value": [{
-													"enchantments": "minecraft:loyalty",
+													"enchantments": "minecraft:riptide",
 													"levels": {"min": 2, "max": 2}
 											}],
 											"on_true": {
 												"type": "minecraft:model",
-												"model": "rgt:item/enchanted_books/loyalty_2"
+												"model": "rgt:item/enchanted_books/riptide_2"
 											},
 											"on_false": {
 												"type": "minecraft:condition",
 												"property": "minecraft:component",
 												"predicate": "minecraft:stored_enchantments",
 												"value": [{
-														"enchantments": "minecraft:loyalty",
+														"enchantments": "minecraft:riptide",
 														"levels": {"min": 3, "max": 3}
 												}],
 												"on_true": {
 													"type": "minecraft:model",
-													"model": "rgt:item/enchanted_books/loyalty_3"
+													"model": "rgt:item/enchanted_books/riptide_3"
 												},
+
 												"on_false": {
 													"type": "minecraft:condition",
 													"property": "minecraft:component",
 													"predicate": "minecraft:stored_enchantments",
 													"value": [{
-															"enchantments": "minecraft:channeling",
+															"enchantments": "minecraft:loyalty",
 															"levels": {"min": 1, "max": 1}
 													}],
 													"on_true": {
 														"type": "minecraft:model",
-														"model": "rgt:item/enchanted_books/channeling"
+														"model": "rgt:item/enchanted_books/loyalty_1"
 													},
 													"on_false": {
 														"type": "minecraft:condition",
 														"property": "minecraft:component",
 														"predicate": "minecraft:stored_enchantments",
 														"value": [{
-																"enchantments": "minecraft:frost_walker",
-																"levels": {"min": 1, "max": 1}
+																"enchantments": "minecraft:loyalty",
+																"levels": {"min": 2, "max": 2}
 														}],
 														"on_true": {
 															"type": "minecraft:model",
-															"model": "rgt:item/enchanted_books/frost_walker_1"
+															"model": "rgt:item/enchanted_books/loyalty_2"
 														},
 														"on_false": {
 															"type": "minecraft:condition",
 															"property": "minecraft:component",
 															"predicate": "minecraft:stored_enchantments",
 															"value": [{
-																	"enchantments": "minecraft:frost_walker",
-																	"levels": {"min": 2, "max": 2}
+																	"enchantments": "minecraft:loyalty",
+																	"levels": {"min": 3, "max": 3}
 															}],
 															"on_true": {
 																"type": "minecraft:model",
-																"model": "rgt:item/enchanted_books/frost_walker_2"
+																"model": "rgt:item/enchanted_books/loyalty_3"
 															},
+
 															"on_false": {
 																"type": "minecraft:condition",
 																"property": "minecraft:component",
 																"predicate": "minecraft:stored_enchantments",
 																"value": [{
-																		"enchantments": "minecraft:fire_aspect",
+																		"enchantments": "minecraft:channeling",
 																		"levels": {"min": 1, "max": 1}
 																}],
 																"on_true": {
 																	"type": "minecraft:model",
-																	"model": "rgt:item/enchanted_books/fire_aspect_1"
+																	"model": "rgt:item/enchanted_books/channeling"
 																},
 																"on_false": {
 																	"type": "minecraft:condition",
 																	"property": "minecraft:component",
 																	"predicate": "minecraft:stored_enchantments",
 																	"value": [{
-																			"enchantments": "minecraft:fire_aspect",
-																			"levels": {"min": 2, "max": 2}
+																			"enchantments": "minecraft:frost_walker",
+																			"levels": {"min": 1, "max": 1}
 																	}],
+
 																	"on_true": {
 																		"type": "minecraft:model",
-																		"model": "rgt:item/enchanted_books/fire_aspect_2"
+																		"model": "rgt:item/enchanted_books/frost_walker_1"
 																	},
 																	"on_false": {
 																		"type": "minecraft:condition",
 																		"property": "minecraft:component",
 																		"predicate": "minecraft:stored_enchantments",
 																		"value": [{
-																				"enchantments": "minecraft:flame",
-																				"levels": {"min": 1, "max": 1}
+																				"enchantments": "minecraft:frost_walker",
+																				"levels": {"min": 2, "max": 2}
 																		}],
 																		"on_true": {
 																			"type": "minecraft:model",
-																			"model": "rgt:item/enchanted_books/flame"
+																			"model": "rgt:item/enchanted_books/frost_walker_2"
 																		},
 																		"on_false": {
 																			"type": "minecraft:condition",
 																			"property": "minecraft:component",
 																			"predicate": "minecraft:stored_enchantments",
 																			"value": [{
-																					"enchantments": "minecraft:multishot",
+																					"enchantments": "minecraft:fire_aspect",
 																					"levels": {"min": 1, "max": 1}
 																			}],
+
 																			"on_true": {
 																				"type": "minecraft:model",
-																				"model": "rgt:item/enchanted_books/multishot"
-																			}, 
+																				"model": "rgt:item/enchanted_books/fire_aspect_1"
+																			},
 																			"on_false": {
 																				"type": "minecraft:condition",
 																				"property": "minecraft:component",
 																				"predicate": "minecraft:stored_enchantments",
 																				"value": [{
-																					"enchantments": "minecraft:infinity",
-																					"levels": {"min": 1, "max": 1}
+																						"enchantments": "minecraft:fire_aspect",
+																						"levels": {"min": 2, "max": 2}
 																				}],
 																				"on_true": {
 																					"type": "minecraft:model",
-																					"model": "rgt:item/enchanted_books/infinity"
+																					"model": "rgt:item/enchanted_books/fire_aspect_2"
 																				},
 																				"on_false": {
 																					"type": "minecraft:condition",
 																					"property": "minecraft:component",
 																					"predicate": "minecraft:stored_enchantments",
 																					"value": [{
-																							"enchantments": "minecraft:piercing",
+																							"enchantments": "minecraft:flame",
 																							"levels": {"min": 1, "max": 1}
 																					}],
+
 																					"on_true": {
 																						"type": "minecraft:model",
-																						"model": "rgt:item/enchanted_books/piercing_1"
+																						"model": "rgt:item/enchanted_books/flame"
 																					},
 																					"on_false": {
 																						"type": "minecraft:condition",
 																						"property": "minecraft:component",
 																						"predicate": "minecraft:stored_enchantments",
 																						"value": [{
-																								"enchantments": "minecraft:piercing",
-																								"levels": {"min": 2, "max": 2}
+																								"enchantments": "minecraft:multishot",
+																								"levels": {"min": 1, "max": 1}
 																						}],
 																						"on_true": {
 																							"type": "minecraft:model",
-																							"model": "rgt:item/enchanted_books/piercing_2"
-																						},
+																							"model": "rgt:item/enchanted_books/multishot"
+																						}, 
 																						"on_false": {
 																							"type": "minecraft:condition",
 																							"property": "minecraft:component",
 																							"predicate": "minecraft:stored_enchantments",
 																							"value": [{
-																									"enchantments": "minecraft:piercing",
-																									"levels": {"min": 3, "max": 3}
+																								"enchantments": "minecraft:infinity",
+																								"levels": {"min": 1, "max": 1}
 																							}],
 																							"on_true": {
 																								"type": "minecraft:model",
-																								"model": "rgt:item/enchanted_books/piercing_3"
+																								"model": "rgt:item/enchanted_books/infinity"
 																							},
 																							"on_false": {
 																								"type": "minecraft:condition",
@@ -273,287 +283,287 @@
 																								"predicate": "minecraft:stored_enchantments",
 																								"value": [{
 																										"enchantments": "minecraft:piercing",
-																										"levels": {"min": 4, "max": 4}
+																										"levels": {"min": 1, "max": 1}
 																								}],
 																								"on_true": {
 																									"type": "minecraft:model",
-																									"model": "rgt:item/enchanted_books/piercing_4"
+																									"model": "rgt:item/enchanted_books/piercing_1"
 																								},
 																								"on_false": {
 																									"type": "minecraft:condition",
 																									"property": "minecraft:component",
 																									"predicate": "minecraft:stored_enchantments",
 																									"value": [{
-																											"enchantments": "minecraft:fortune",
-																											"levels": {"min": 1, "max": 1}
+																											"enchantments": "minecraft:piercing",
+																											"levels": {"min": 2, "max": 2}
 																									}],
 																									"on_true": {
 																										"type": "minecraft:model",
-																										"model": "rgt:item/enchanted_books/fortune_1"
+																										"model": "rgt:item/enchanted_books/piercing_2"
 																									},
 																									"on_false": {
 																										"type": "minecraft:condition",
 																										"property": "minecraft:component",
 																										"predicate": "minecraft:stored_enchantments",
 																										"value": [{
-																												"enchantments": "minecraft:fortune",
-																												"levels": {"min": 2, "max": 2}
+																												"enchantments": "minecraft:piercing",
+																												"levels": {"min": 3, "max": 3}
 																										}],
 																										"on_true": {
 																											"type": "minecraft:model",
-																											"model": "rgt:item/enchanted_books/fortune_2"
+																											"model": "rgt:item/enchanted_books/piercing_3"
 																										},
 																										"on_false": {
 																											"type": "minecraft:condition",
 																											"property": "minecraft:component",
 																											"predicate": "minecraft:stored_enchantments",
 																											"value": [{
-																													"enchantments": "minecraft:fortune",
-																													"levels": {"min": 3, "max": 3}
+																													"enchantments": "minecraft:piercing",
+																													"levels": {"min": 4, "max": 4}
 																											}],
 																											"on_true": {
 																												"type": "minecraft:model",
-																												"model": "rgt:item/enchanted_books/fortune_3"
+																												"model": "rgt:item/enchanted_books/piercing_4"
 																											},
 																											"on_false": {
 																												"type": "minecraft:condition",
 																												"property": "minecraft:component",
 																												"predicate": "minecraft:stored_enchantments",
 																												"value": [{
-																														"enchantments": "minecraft:silk_touch",
+																														"enchantments": "minecraft:fortune",
 																														"levels": {"min": 1, "max": 1}
 																												}],
 																												"on_true": {
 																													"type": "minecraft:model",
-																													"model": "rgt:item/enchanted_books/silk_touch"
+																													"model": "rgt:item/enchanted_books/fortune_1"
 																												},
 																												"on_false": {
 																													"type": "minecraft:condition",
 																													"property": "minecraft:component",
 																													"predicate": "minecraft:stored_enchantments",
 																													"value": [{
-																															"enchantments": "minecraft:thorns",
-																															"levels": {"min": 1, "max": 1}
+																															"enchantments": "minecraft:fortune",
+																															"levels": {"min": 2, "max": 2}
 																													}],
 																													"on_true": {
 																														"type": "minecraft:model",
-																														"model": "rgt:item/enchanted_books/thorns_1"
+																														"model": "rgt:item/enchanted_books/fortune_2"
 																													},
 																													"on_false": {
 																														"type": "minecraft:condition",
 																														"property": "minecraft:component",
 																														"predicate": "minecraft:stored_enchantments",
 																														"value": [{
-																																"enchantments": "minecraft:thorns",
-																																"levels": {"min": 2, "max": 2}
+																																"enchantments": "minecraft:fortune",
+																																"levels": {"min": 3, "max": 3}
 																														}],
 																														"on_true": {
 																															"type": "minecraft:model",
-																															"model": "rgt:item/enchanted_books/thorns_2"
+																															"model": "rgt:item/enchanted_books/fortune_3"
 																														},
 																														"on_false": {
 																															"type": "minecraft:condition",
 																															"property": "minecraft:component",
 																															"predicate": "minecraft:stored_enchantments",
 																															"value": [{
-																																	"enchantments": "minecraft:thorns",
-																																	"levels": {"min": 3, "max": 3}
+																																	"enchantments": "minecraft:silk_touch",
+																																	"levels": {"min": 1, "max": 1}
 																															}],
 																															"on_true": {
 																																"type": "minecraft:model",
-																																"model": "rgt:item/enchanted_books/thorns_3"
+																																"model": "rgt:item/enchanted_books/silk_touch"
 																															},
 																															"on_false": {
 																																"type": "minecraft:condition",
 																																"property": "minecraft:component",
 																																"predicate": "minecraft:stored_enchantments",
 																																"value": [{
-																																		"enchantments": "minecraft:soul_speed",
+																																		"enchantments": "minecraft:thorns",
 																																		"levels": {"min": 1, "max": 1}
 																																}],
 																																"on_true": {
 																																	"type": "minecraft:model",
-																																	"model": "rgt:item/enchanted_books/soul_speed_1"
+																																	"model": "rgt:item/enchanted_books/thorns_1"
 																																},
 																																"on_false": {
 																																	"type": "minecraft:condition",
 																																	"property": "minecraft:component",
 																																	"predicate": "minecraft:stored_enchantments",
 																																	"value": [{
-																																			"enchantments": "minecraft:soul_speed",
+																																			"enchantments": "minecraft:thorns",
 																																			"levels": {"min": 2, "max": 2}
 																																	}],
 																																	"on_true": {
 																																		"type": "minecraft:model",
-																																		"model": "rgt:item/enchanted_books/soul_speed_2"
+																																		"model": "rgt:item/enchanted_books/thorns_2"
 																																	},
 																																	"on_false": {
 																																		"type": "minecraft:condition",
 																																		"property": "minecraft:component",
 																																		"predicate": "minecraft:stored_enchantments",
 																																		"value": [{
-																																				"enchantments": "minecraft:soul_speed",
+																																				"enchantments": "minecraft:thorns",
 																																				"levels": {"min": 3, "max": 3}
 																																		}],
 																																		"on_true": {
 																																			"type": "minecraft:model",
-																																			"model": "rgt:item/enchanted_books/soul_speed_3"
+																																			"model": "rgt:item/enchanted_books/thorns_3"
 																																		},
 																																		"on_false": {
 																																			"type": "minecraft:condition",
 																																			"property": "minecraft:component",
 																																			"predicate": "minecraft:stored_enchantments",
 																																			"value": [{
-																																					"enchantments": "minecraft:swift_sneak",
+																																					"enchantments": "minecraft:soul_speed",
 																																					"levels": {"min": 1, "max": 1}
 																																			}],
 																																			"on_true": {
 																																				"type": "minecraft:model",
-																																				"model": "rgt:item/enchanted_books/swift_sneak_1"
+																																				"model": "rgt:item/enchanted_books/soul_speed_1"
 																																			},
 																																			"on_false": {
 																																				"type": "minecraft:condition",
 																																				"property": "minecraft:component",
 																																				"predicate": "minecraft:stored_enchantments",
 																																				"value": [{
-																																						"enchantments": "minecraft:swift_sneak",
+																																						"enchantments": "minecraft:soul_speed",
 																																						"levels": {"min": 2, "max": 2}
 																																				}],
 																																				"on_true": {
 																																					"type": "minecraft:model",
-																																					"model": "rgt:item/enchanted_books/swift_sneak_2"
+																																					"model": "rgt:item/enchanted_books/soul_speed_2"
 																																				},
 																																				"on_false": {
 																																					"type": "minecraft:condition",
 																																					"property": "minecraft:component",
 																																					"predicate": "minecraft:stored_enchantments",
 																																					"value": [{
-																																							"enchantments": "minecraft:swift_sneak",
+																																							"enchantments": "minecraft:soul_speed",
 																																							"levels": {"min": 3, "max": 3}
 																																					}],
 																																					"on_true": {
 																																						"type": "minecraft:model",
-																																						"model": "rgt:item/enchanted_books/swift_sneak_3"
+																																						"model": "rgt:item/enchanted_books/soul_speed_3"
 																																					},
 																																					"on_false": {
 																																						"type": "minecraft:condition",
 																																						"property": "minecraft:component",
 																																						"predicate": "minecraft:stored_enchantments",
 																																						"value": [{
-																																								"enchantments": "minecraft:respiration",
+																																								"enchantments": "minecraft:swift_sneak",
 																																								"levels": {"min": 1, "max": 1}
 																																						}],
 																																						"on_true": {
 																																							"type": "minecraft:model",
-																																							"model": "rgt:item/enchanted_books/respiration_1"
+																																							"model": "rgt:item/enchanted_books/swift_sneak_1"
 																																						},
 																																						"on_false": {
 																																							"type": "minecraft:condition",
 																																							"property": "minecraft:component",
 																																							"predicate": "minecraft:stored_enchantments",
 																																							"value": [{
-																																									"enchantments": "minecraft:respiration",
+																																									"enchantments": "minecraft:swift_sneak",
 																																									"levels": {"min": 2, "max": 2}
 																																							}],
 																																							"on_true": {
 																																								"type": "minecraft:model",
-																																								"model": "rgt:item/enchanted_books/respiration_2"
+																																								"model": "rgt:item/enchanted_books/swift_sneak_2"
 																																							},
 																																							"on_false": {
 																																								"type": "minecraft:condition",
 																																								"property": "minecraft:component",
 																																								"predicate": "minecraft:stored_enchantments",
 																																								"value": [{
-																																										"enchantments": "minecraft:respiration",
+																																										"enchantments": "minecraft:swift_sneak",
 																																										"levels": {"min": 3, "max": 3}
 																																								}],
 																																								"on_true": {
 																																									"type": "minecraft:model",
-																																									"model": "rgt:item/enchanted_books/respiration_3"
+																																									"model": "rgt:item/enchanted_books/swift_sneak_3"
 																																								},
 																																								"on_false": {
 																																									"type": "minecraft:condition",
 																																									"property": "minecraft:component",
 																																									"predicate": "minecraft:stored_enchantments",
 																																									"value": [{
-																																											"enchantments": "minecraft:aqua_affinity",
+																																											"enchantments": "minecraft:respiration",
 																																											"levels": {"min": 1, "max": 1}
 																																									}],
 																																									"on_true": {
 																																										"type": "minecraft:model",
-																																										"model": "rgt:item/enchanted_books/aqua_affinity"
+																																										"model": "rgt:item/enchanted_books/respiration_1"
 																																									},
 																																									"on_false": {
 																																										"type": "minecraft:condition",
 																																										"property": "minecraft:component",
 																																										"predicate": "minecraft:stored_enchantments",
 																																										"value": [{
-																																												"enchantments": "minecraft:depth_strider",
-																																												"levels": {"min": 1, "max": 1}
+																																												"enchantments": "minecraft:respiration",
+																																												"levels": {"min": 2, "max": 2}
 																																										}],
 																																										"on_true": {
 																																											"type": "minecraft:model",
-																																											"model": "rgt:item/enchanted_books/depth_strider_1"
+																																											"model": "rgt:item/enchanted_books/respiration_2"
 																																										},
 																																										"on_false": {
 																																											"type": "minecraft:condition",
 																																											"property": "minecraft:component",
 																																											"predicate": "minecraft:stored_enchantments",
 																																											"value": [{
-																																													"enchantments": "minecraft:depth_strider",
-																																													"levels": {"min": 2, "max": 2}
+																																													"enchantments": "minecraft:respiration",
+																																													"levels": {"min": 3, "max": 3}
 																																											}],
 																																											"on_true": {
 																																												"type": "minecraft:model",
-																																												"model": "rgt:item/enchanted_books/depth_strider_2"
+																																												"model": "rgt:item/enchanted_books/respiration_3"
 																																											},
 																																											"on_false": {
 																																												"type": "minecraft:condition",
 																																												"property": "minecraft:component",
 																																												"predicate": "minecraft:stored_enchantments",
 																																												"value": [{
-																																														"enchantments": "minecraft:depth_strider",
-																																														"levels": {"min": 3, "max": 3}
+																																														"enchantments": "minecraft:aqua_affinity",
+																																														"levels": {"min": 1, "max": 1}
 																																												}],
 																																												"on_true": {
 																																													"type": "minecraft:model",
-																																													"model": "rgt:item/enchanted_books/depth_strider_3"
+																																													"model": "rgt:item/enchanted_books/aqua_affinity"
 																																												},
 																																												"on_false": {
 																																													"type": "minecraft:condition",
 																																													"property": "minecraft:component",
 																																													"predicate": "minecraft:stored_enchantments",
 																																													"value": [{
-																																															"enchantments": "minecraft:feather_falling",
+																																															"enchantments": "minecraft:depth_strider",
 																																															"levels": {"min": 1, "max": 1}
 																																													}],
 																																													"on_true": {
 																																														"type": "minecraft:model",
-																																														"model": "rgt:item/enchanted_books/feather_falling_1"
+																																														"model": "rgt:item/enchanted_books/depth_strider_1"
 																																													},
 																																													"on_false": {
 																																														"type": "minecraft:condition",
 																																														"property": "minecraft:component",
 																																														"predicate": "minecraft:stored_enchantments",
 																																														"value": [{
-																																																"enchantments": "minecraft:feather_falling",
+																																																"enchantments": "minecraft:depth_strider",
 																																																"levels": {"min": 2, "max": 2}
 																																														}],
 																																														"on_true": {
 																																															"type": "minecraft:model",
-																																															"model": "rgt:item/enchanted_books/feather_falling_2"
+																																															"model": "rgt:item/enchanted_books/depth_strider_2"
 																																														},
 																																														"on_false": {
 																																															"type": "minecraft:condition",
 																																															"property": "minecraft:component",
 																																															"predicate": "minecraft:stored_enchantments",
 																																															"value": [{
-																																																	"enchantments": "minecraft:feather_falling",
+																																																	"enchantments": "minecraft:depth_strider",
 																																																	"levels": {"min": 3, "max": 3}
 																																															}],
 																																															"on_true": {
 																																																"type": "minecraft:model",
-																																																"model": "rgt:item/enchanted_books/feather_falling_3"
+																																																"model": "rgt:item/enchanted_books/depth_strider_3"
 																																															},
 																																															"on_false": {
 																																																"type": "minecraft:condition",
@@ -561,203 +571,203 @@
 																																																"predicate": "minecraft:stored_enchantments",
 																																																"value": [{
 																																																		"enchantments": "minecraft:feather_falling",
-																																																		"levels": {"min": 4, "max": 4}
+																																																		"levels": {"min": 1, "max": 1}
 																																																}],
 																																																"on_true": {
 																																																	"type": "minecraft:model",
-																																																	"model": "rgt:item/enchanted_books/feather_falling_4"
+																																																	"model": "rgt:item/enchanted_books/feather_falling_1"
 																																																},
 																																																"on_false": {
 																																																	"type": "minecraft:condition",
 																																																	"property": "minecraft:component",
 																																																	"predicate": "minecraft:stored_enchantments",
 																																																	"value": [{
-																																																			"enchantments": "minecraft:knockback",
-																																																			"levels": {"min": 1, "max": 1}
+																																																			"enchantments": "minecraft:feather_falling",
+																																																			"levels": {"min": 2, "max": 2}
 																																																	}],
 																																																	"on_true": {
 																																																		"type": "minecraft:model",
-																																																		"model": "rgt:item/enchanted_books/knockback_1"
+																																																		"model": "rgt:item/enchanted_books/feather_falling_2"
 																																																	},
 																																																	"on_false": {
 																																																		"type": "minecraft:condition",
 																																																		"property": "minecraft:component",
 																																																		"predicate": "minecraft:stored_enchantments",
 																																																		"value": [{
-																																																				"enchantments": "minecraft:knockback",
-																																																				"levels": {"min": 2, "max": 2}
+																																																				"enchantments": "minecraft:feather_falling",
+																																																				"levels": {"min": 3, "max": 3}
 																																																		}],
 																																																		"on_true": {
 																																																			"type": "minecraft:model",
-																																																			"model": "rgt:item/enchanted_books/knockback_2"
+																																																			"model": "rgt:item/enchanted_books/feather_falling_3"
 																																																		},
 																																																		"on_false": {
 																																																			"type": "minecraft:condition",
 																																																			"property": "minecraft:component",
 																																																			"predicate": "minecraft:stored_enchantments",
 																																																			"value": [{
-																																																					"enchantments": "minecraft:sweeping_edge",
-																																																					"levels": {"min": 1, "max": 1}
+																																																					"enchantments": "minecraft:feather_falling",
+																																																					"levels": {"min": 4, "max": 4}
 																																																			}],
 																																																			"on_true": {
 																																																				"type": "minecraft:model",
-																																																				"model": "rgt:item/enchanted_books/sweeping_edge_1"
+																																																				"model": "rgt:item/enchanted_books/feather_falling_4"
 																																																			},
 																																																			"on_false": {
 																																																				"type": "minecraft:condition",
 																																																				"property": "minecraft:component",
 																																																				"predicate": "minecraft:stored_enchantments",
 																																																				"value": [{
-																																																						"enchantments": "minecraft:sweeping_edge",
-																																																						"levels": {"min": 2, "max": 2}
+																																																						"enchantments": "minecraft:knockback",
+																																																						"levels": {"min": 1, "max": 1}
 																																																				}],
 																																																				"on_true": {
 																																																					"type": "minecraft:model",
-																																																					"model": "rgt:item/enchanted_books/sweeping_edge_2"
+																																																					"model": "rgt:item/enchanted_books/knockback_1"
 																																																				},
 																																																				"on_false": {
 																																																					"type": "minecraft:condition",
 																																																					"property": "minecraft:component",
 																																																					"predicate": "minecraft:stored_enchantments",
 																																																					"value": [{
-																																																							"enchantments": "minecraft:sweeping_edge",
-																																																							"levels": {"min": 3, "max": 3}
+																																																							"enchantments": "minecraft:knockback",
+																																																							"levels": {"min": 2, "max": 2}
 																																																					}],
 																																																					"on_true": {
 																																																						"type": "minecraft:model",
-																																																						"model": "rgt:item/enchanted_books/sweeping_edge_3"
+																																																						"model": "rgt:item/enchanted_books/knockback_2"
 																																																					},
 																																																					"on_false": {
 																																																						"type": "minecraft:condition",
 																																																						"property": "minecraft:component",
 																																																						"predicate": "minecraft:stored_enchantments",
 																																																						"value": [{
-																																																								"enchantments": "minecraft:looting",
+																																																								"enchantments": "minecraft:sweeping_edge",
 																																																								"levels": {"min": 1, "max": 1}
 																																																						}],
 																																																						"on_true": {
 																																																							"type": "minecraft:model",
-																																																							"model": "rgt:item/enchanted_books/looting_1"
+																																																							"model": "rgt:item/enchanted_books/sweeping_edge_1"
 																																																						},
 																																																						"on_false": {
 																																																							"type": "minecraft:condition",
 																																																							"property": "minecraft:component",
 																																																							"predicate": "minecraft:stored_enchantments",
 																																																							"value": [{
-																																																									"enchantments": "minecraft:looting",
+																																																									"enchantments": "minecraft:sweeping_edge",
 																																																									"levels": {"min": 2, "max": 2}
 																																																							}],
 																																																							"on_true": {
 																																																								"type": "minecraft:model",
-																																																								"model": "rgt:item/enchanted_books/looting_2"
+																																																								"model": "rgt:item/enchanted_books/sweeping_edge_2"
 																																																							},
 																																																							"on_false": {
 																																																								"type": "minecraft:condition",
 																																																								"property": "minecraft:component",
 																																																								"predicate": "minecraft:stored_enchantments",
 																																																								"value": [{
-																																																										"enchantments": "minecraft:looting",
+																																																										"enchantments": "minecraft:sweeping_edge",
 																																																										"levels": {"min": 3, "max": 3}
 																																																								}],
 																																																								"on_true": {
 																																																									"type": "minecraft:model",
-																																																									"model": "rgt:item/enchanted_books/looting_3"
+																																																									"model": "rgt:item/enchanted_books/sweeping_edge_3"
 																																																								},
 																																																								"on_false": {
 																																																									"type": "minecraft:condition",
 																																																									"property": "minecraft:component",
 																																																									"predicate": "minecraft:stored_enchantments",
 																																																									"value": [{
-																																																											"enchantments": "minecraft:punch",
+																																																											"enchantments": "minecraft:looting",
 																																																											"levels": {"min": 1, "max": 1}
 																																																									}],
 																																																									"on_true": {
 																																																										"type": "minecraft:model",
-																																																										"model": "rgt:item/enchanted_books/punch_1"
+																																																										"model": "rgt:item/enchanted_books/looting_1"
 																																																									},
 																																																									"on_false": {
 																																																										"type": "minecraft:condition",
 																																																										"property": "minecraft:component",
 																																																										"predicate": "minecraft:stored_enchantments",
 																																																										"value": [{
-																																																												"enchantments": "minecraft:punch",
+																																																												"enchantments": "minecraft:looting",
 																																																												"levels": {"min": 2, "max": 2}
 																																																										}],
 																																																										"on_true": {
 																																																											"type": "minecraft:model",
-																																																											"model": "rgt:item/enchanted_books/punch_2"
+																																																											"model": "rgt:item/enchanted_books/looting_2"
 																																																										},
 																																																										"on_false": {
 																																																											"type": "minecraft:condition",
 																																																											"property": "minecraft:component",
 																																																											"predicate": "minecraft:stored_enchantments",
 																																																											"value": [{
-																																																													"enchantments": "minecraft:quick_charge",
-																																																													"levels": {"min": 1, "max": 1}
+																																																													"enchantments": "minecraft:looting",
+																																																													"levels": {"min": 3, "max": 3}
 																																																											}],
 																																																											"on_true": {
 																																																												"type": "minecraft:model",
-																																																												"model": "rgt:item/enchanted_books/quick_charge_1"
+																																																												"model": "rgt:item/enchanted_books/looting_3"
 																																																											},
 																																																											"on_false": {
 																																																												"type": "minecraft:condition",
 																																																												"property": "minecraft:component",
 																																																												"predicate": "minecraft:stored_enchantments",
 																																																												"value": [{
-																																																														"enchantments": "minecraft:quick_charge",
-																																																														"levels": {"min": 2, "max": 2}
+																																																														"enchantments": "minecraft:punch",
+																																																														"levels": {"min": 1, "max": 1}
 																																																												}],
 																																																												"on_true": {
 																																																													"type": "minecraft:model",
-																																																													"model": "rgt:item/enchanted_books/quick_charge_2"
+																																																													"model": "rgt:item/enchanted_books/punch_1"
 																																																												},
 																																																												"on_false": {
 																																																													"type": "minecraft:condition",
 																																																													"property": "minecraft:component",
 																																																													"predicate": "minecraft:stored_enchantments",
 																																																													"value": [{
-																																																															"enchantments": "minecraft:quick_charge",
-																																																															"levels": {"min": 3, "max": 3}
+																																																															"enchantments": "minecraft:punch",
+																																																															"levels": {"min": 2, "max": 2}
 																																																													}],
 																																																													"on_true": {
 																																																														"type": "minecraft:model",
-																																																														"model": "rgt:item/enchanted_books/quick_charge_3"
+																																																														"model": "rgt:item/enchanted_books/punch_2"
 																																																													},
 																																																													"on_false": {
 																																																														"type": "minecraft:condition",
 																																																														"property": "minecraft:component",
 																																																														"predicate": "minecraft:stored_enchantments",
 																																																														"value": [{
-																																																																"enchantments": "minecraft:breach",
+																																																																"enchantments": "minecraft:quick_charge",
 																																																																"levels": {"min": 1, "max": 1}
 																																																														}],
 																																																														"on_true": {
 																																																															"type": "minecraft:model",
-																																																															"model": "rgt:item/enchanted_books/breach_1"
+																																																															"model": "rgt:item/enchanted_books/quick_charge_1"
 																																																														},
 																																																														"on_false": {
 																																																															"type": "minecraft:condition",
 																																																															"property": "minecraft:component",
 																																																															"predicate": "minecraft:stored_enchantments",
 																																																															"value": [{
-																																																																	"enchantments": "minecraft:breach",
+																																																																	"enchantments": "minecraft:quick_charge",
 																																																																	"levels": {"min": 2, "max": 2}
 																																																															}],
 																																																															"on_true": {
 																																																																"type": "minecraft:model",
-																																																																"model": "rgt:item/enchanted_books/breach_2"
+																																																																"model": "rgt:item/enchanted_books/quick_charge_2"
 																																																															},
 																																																															"on_false": {
 																																																																"type": "minecraft:condition",
 																																																																"property": "minecraft:component",
 																																																																"predicate": "minecraft:stored_enchantments",
 																																																																"value": [{
-																																																																		"enchantments": "minecraft:breach",
+																																																																		"enchantments": "minecraft:quick_charge",
 																																																																		"levels": {"min": 3, "max": 3}
 																																																																}],
 																																																																"on_true": {
 																																																																	"type": "minecraft:model",
-																																																																	"model": "rgt:item/enchanted_books/breach_3"
+																																																																	"model": "rgt:item/enchanted_books/quick_charge_3"
 																																																																},
 																																																																"on_false": {
 																																																																	"type": "minecraft:condition",
@@ -765,47 +775,47 @@
 																																																																	"predicate": "minecraft:stored_enchantments",
 																																																																	"value": [{
 																																																																			"enchantments": "minecraft:breach",
-																																																																			"levels": {"min": 4, "max": 4}
+																																																																			"levels": {"min": 1, "max": 1}
 																																																																	}],
 																																																																	"on_true": {
 																																																																		"type": "minecraft:model",
-																																																																		"model": "rgt:item/enchanted_books/breach_4"
+																																																																		"model": "rgt:item/enchanted_books/breach_1"
 																																																																	},
 																																																																	"on_false": {
 																																																																		"type": "minecraft:condition",
 																																																																		"property": "minecraft:component",
 																																																																		"predicate": "minecraft:stored_enchantments",
 																																																																		"value": [{
-																																																																				"enchantments": "minecraft:density",
-																																																																				"levels": {"min": 1, "max": 1}
+																																																																				"enchantments": "minecraft:breach",
+																																																																				"levels": {"min": 2, "max": 2}
 																																																																		}],
 																																																																		"on_true": {
 																																																																			"type": "minecraft:model",
-																																																																			"model": "rgt:item/enchanted_books/density_1"
+																																																																			"model": "rgt:item/enchanted_books/breach_2"
 																																																																		},
 																																																																		"on_false": {
 																																																																			"type": "minecraft:condition",
 																																																																			"property": "minecraft:component",
 																																																																			"predicate": "minecraft:stored_enchantments",
 																																																																			"value": [{
-																																																																					"enchantments": "minecraft:density",
-																																																																					"levels": {"min": 2, "max": 2}
+																																																																					"enchantments": "minecraft:breach",
+																																																																					"levels": {"min": 3, "max": 3}
 																																																																			}],
 																																																																			"on_true": {
 																																																																				"type": "minecraft:model",
-																																																																				"model": "rgt:item/enchanted_books/density_2"
+																																																																				"model": "rgt:item/enchanted_books/breach_3"
 																																																																			},
 																																																																			"on_false": {
 																																																																				"type": "minecraft:condition",
 																																																																				"property": "minecraft:component",
 																																																																				"predicate": "minecraft:stored_enchantments",
 																																																																				"value": [{
-																																																																						"enchantments": "minecraft:density",
-																																																																						"levels": {"min": 3, "max": 3}
+																																																																						"enchantments": "minecraft:breach",
+																																																																						"levels": {"min": 4, "max": 4}
 																																																																				}],
 																																																																				"on_true": {
 																																																																					"type": "minecraft:model",
-																																																																					"model": "rgt:item/enchanted_books/density_3"
+																																																																					"model": "rgt:item/enchanted_books/breach_4"
 																																																																				},
 																																																																				"on_false": {
 																																																																					"type": "minecraft:condition",
@@ -813,11 +823,11 @@
 																																																																					"predicate": "minecraft:stored_enchantments",
 																																																																					"value": [{
 																																																																							"enchantments": "minecraft:density",
-																																																																							"levels": {"min": 4, "max": 4}
+																																																																							"levels": {"min": 1, "max": 1}
 																																																																					}],
 																																																																					"on_true": {
 																																																																						"type": "minecraft:model",
-																																																																						"model": "rgt:item/enchanted_books/density_4"
+																																																																						"model": "rgt:item/enchanted_books/density_1"
 																																																																					},
 																																																																					"on_false": {
 																																																																						"type": "minecraft:condition",
@@ -825,47 +835,47 @@
 																																																																						"predicate": "minecraft:stored_enchantments",
 																																																																						"value": [{
 																																																																								"enchantments": "minecraft:density",
-																																																																								"levels": {"min": 5, "max": 5}
+																																																																								"levels": {"min": 2, "max": 2}
 																																																																						}],
 																																																																						"on_true": {
 																																																																							"type": "minecraft:model",
-																																																																							"model": "rgt:item/enchanted_books/density_5"
+																																																																							"model": "rgt:item/enchanted_books/density_2"
 																																																																						},
 																																																																						"on_false": {
 																																																																							"type": "minecraft:condition",
 																																																																							"property": "minecraft:component",
 																																																																							"predicate": "minecraft:stored_enchantments",
 																																																																							"value": [{
-																																																																									"enchantments": "minecraft:blast_protection",
-																																																																									"levels": {"min": 1, "max": 1}
+																																																																									"enchantments": "minecraft:density",
+																																																																									"levels": {"min": 3, "max": 3}
 																																																																							}],
 																																																																							"on_true": {
 																																																																								"type": "minecraft:model",
-																																																																								"model": "rgt:item/enchanted_books/blast_protection_1"
+																																																																								"model": "rgt:item/enchanted_books/density_3"
 																																																																							},
 																																																																							"on_false": {
 																																																																								"type": "minecraft:condition",
 																																																																								"property": "minecraft:component",
 																																																																								"predicate": "minecraft:stored_enchantments",
 																																																																								"value": [{
-																																																																										"enchantments": "minecraft:blast_protection",
-																																																																										"levels": {"min": 2, "max": 2}
+																																																																										"enchantments": "minecraft:density",
+																																																																										"levels": {"min": 4, "max": 4}
 																																																																								}],
 																																																																								"on_true": {
 																																																																									"type": "minecraft:model",
-																																																																									"model": "rgt:item/enchanted_books/blast_protection_2"
+																																																																									"model": "rgt:item/enchanted_books/density_4"
 																																																																								},
 																																																																								"on_false": {
 																																																																									"type": "minecraft:condition",
 																																																																									"property": "minecraft:component",
 																																																																									"predicate": "minecraft:stored_enchantments",
 																																																																									"value": [{
-																																																																											"enchantments": "minecraft:blast_protection",
-																																																																											"levels": {"min": 3, "max": 3}
+																																																																											"enchantments": "minecraft:density",
+																																																																											"levels": {"min": 5, "max": 5}
 																																																																									}],
 																																																																									"on_true": {
 																																																																										"type": "minecraft:model",
-																																																																										"model": "rgt:item/enchanted_books/blast_protection_3"
+																																																																										"model": "rgt:item/enchanted_books/density_5"
 																																																																									},
 																																																																									"on_false": {
 																																																																										"type": "minecraft:condition",
@@ -873,47 +883,47 @@
 																																																																										"predicate": "minecraft:stored_enchantments",
 																																																																										"value": [{
 																																																																												"enchantments": "minecraft:blast_protection",
-																																																																												"levels": {"min": 4, "max": 4}
+																																																																												"levels": {"min": 1, "max": 1}
 																																																																										}],
 																																																																										"on_true": {
 																																																																											"type": "minecraft:model",
-																																																																											"model": "rgt:item/enchanted_books/blast_protection_4"
+																																																																											"model": "rgt:item/enchanted_books/blast_protection_1"
 																																																																										},
 																																																																										"on_false": {
 																																																																											"type": "minecraft:condition",
 																																																																											"property": "minecraft:component",
 																																																																											"predicate": "minecraft:stored_enchantments",
 																																																																											"value": [{
-																																																																													"enchantments": "minecraft:fire_protection",
-																																																																													"levels": {"min": 1, "max": 1}
+																																																																													"enchantments": "minecraft:blast_protection",
+																																																																													"levels": {"min": 2, "max": 2}
 																																																																											}],
 																																																																											"on_true": {
 																																																																												"type": "minecraft:model",
-																																																																												"model": "rgt:item/enchanted_books/fire_protection_1"
+																																																																												"model": "rgt:item/enchanted_books/blast_protection_2"
 																																																																											},
 																																																																											"on_false": {
 																																																																												"type": "minecraft:condition",
 																																																																												"property": "minecraft:component",
 																																																																												"predicate": "minecraft:stored_enchantments",
 																																																																												"value": [{
-																																																																														"enchantments": "minecraft:fire_protection",
-																																																																														"levels": {"min": 2, "max": 2}
+																																																																														"enchantments": "minecraft:blast_protection",
+																																																																														"levels": {"min": 3, "max": 3}
 																																																																												}],
 																																																																												"on_true": {
 																																																																													"type": "minecraft:model",
-																																																																													"model": "rgt:item/enchanted_books/fire_protection_2"
+																																																																													"model": "rgt:item/enchanted_books/blast_protection_3"
 																																																																												},
 																																																																												"on_false": {
 																																																																													"type": "minecraft:condition",
 																																																																													"property": "minecraft:component",
 																																																																													"predicate": "minecraft:stored_enchantments",
 																																																																													"value": [{
-																																																																															"enchantments": "minecraft:fire_protection",
-																																																																															"levels": {"min": 3, "max": 3}
+																																																																															"enchantments": "minecraft:blast_protection",
+																																																																															"levels": {"min": 4, "max": 4}
 																																																																													}],
 																																																																													"on_true": {
 																																																																														"type": "minecraft:model",
-																																																																														"model": "rgt:item/enchanted_books/fire_protection_3"
+																																																																														"model": "rgt:item/enchanted_books/blast_protection_4"
 																																																																													},
 																																																																													"on_false": {
 																																																																														"type": "minecraft:condition",
@@ -921,47 +931,47 @@
 																																																																														"predicate": "minecraft:stored_enchantments",
 																																																																														"value": [{
 																																																																																"enchantments": "minecraft:fire_protection",
-																																																																																"levels": {"min": 4, "max": 4}
+																																																																																"levels": {"min": 1, "max": 1}
 																																																																														}],
 																																																																														"on_true": {
 																																																																															"type": "minecraft:model",
-																																																																															"model": "rgt:item/enchanted_books/fire_protection_4"
+																																																																															"model": "rgt:item/enchanted_books/fire_protection_1"
 																																																																														},
 																																																																														"on_false": {
 																																																																															"type": "minecraft:condition",
 																																																																															"property": "minecraft:component",
 																																																																															"predicate": "minecraft:stored_enchantments",
 																																																																															"value": [{
-																																																																																	"enchantments": "minecraft:projectile_protection",
-																																																																																	"levels": {"min": 1, "max": 1}
+																																																																																	"enchantments": "minecraft:fire_protection",
+																																																																																	"levels": {"min": 2, "max": 2}
 																																																																															}],
 																																																																															"on_true": {
 																																																																																"type": "minecraft:model",
-																																																																																"model": "rgt:item/enchanted_books/projectile_protection_1"
+																																																																																"model": "rgt:item/enchanted_books/fire_protection_2"
 																																																																															},
 																																																																															"on_false": {
 																																																																																"type": "minecraft:condition",
 																																																																																"property": "minecraft:component",
 																																																																																"predicate": "minecraft:stored_enchantments",
 																																																																																"value": [{
-																																																																																		"enchantments": "minecraft:projectile_protection",
-																																																																																		"levels": {"min": 2, "max": 2}
+																																																																																		"enchantments": "minecraft:fire_protection",
+																																																																																		"levels": {"min": 3, "max": 3}
 																																																																																}],
 																																																																																"on_true": {
 																																																																																	"type": "minecraft:model",
-																																																																																	"model": "rgt:item/enchanted_books/projectile_protection_2"
+																																																																																	"model": "rgt:item/enchanted_books/fire_protection_3"
 																																																																																},
 																																																																																"on_false": {
 																																																																																	"type": "minecraft:condition",
 																																																																																	"property": "minecraft:component",
 																																																																																	"predicate": "minecraft:stored_enchantments",
 																																																																																	"value": [{
-																																																																																			"enchantments": "minecraft:projectile_protection",
-																																																																																			"levels": {"min": 3, "max": 3}
+																																																																																			"enchantments": "minecraft:fire_protection",
+																																																																																			"levels": {"min": 4, "max": 4}
 																																																																																	}],
 																																																																																	"on_true": {
 																																																																																		"type": "minecraft:model",
-																																																																																		"model": "rgt:item/enchanted_books/projectile_protection_3"
+																																																																																		"model": "rgt:item/enchanted_books/fire_protection_4"
 																																																																																	},
 																																																																																	"on_false": {
 																																																																																		"type": "minecraft:condition",
@@ -969,47 +979,47 @@
 																																																																																		"predicate": "minecraft:stored_enchantments",
 																																																																																		"value": [{
 																																																																																				"enchantments": "minecraft:projectile_protection",
-																																																																																				"levels": {"min": 4, "max": 4}
+																																																																																				"levels": {"min": 1, "max": 1}
 																																																																																		}],
 																																																																																		"on_true": {
 																																																																																			"type": "minecraft:model",
-																																																																																			"model": "rgt:item/enchanted_books/projectile_protection_4"
+																																																																																			"model": "rgt:item/enchanted_books/projectile_protection_1"
 																																																																																		},
 																																																																																		"on_false": {
 																																																																																			"type": "minecraft:condition",
 																																																																																			"property": "minecraft:component",
 																																																																																			"predicate": "minecraft:stored_enchantments",
 																																																																																			"value": [{
-																																																																																					"enchantments": "minecraft:protection",
-																																																																																					"levels": {"min": 1, "max": 1}
+																																																																																					"enchantments": "minecraft:projectile_protection",
+																																																																																					"levels": {"min": 2, "max": 2}
 																																																																																			}],
 																																																																																			"on_true": {
 																																																																																				"type": "minecraft:model",
-																																																																																				"model": "rgt:item/enchanted_books/protection_1"
+																																																																																				"model": "rgt:item/enchanted_books/projectile_protection_2"
 																																																																																			},
 																																																																																			"on_false": {
 																																																																																				"type": "minecraft:condition",
 																																																																																				"property": "minecraft:component",
 																																																																																				"predicate": "minecraft:stored_enchantments",
 																																																																																				"value": [{
-																																																																																						"enchantments": "minecraft:protection",
-																																																																																						"levels": {"min": 2, "max": 2}
+																																																																																						"enchantments": "minecraft:projectile_protection",
+																																																																																						"levels": {"min": 3, "max": 3}
 																																																																																				}],
 																																																																																				"on_true": {
 																																																																																					"type": "minecraft:model",
-																																																																																					"model": "rgt:item/enchanted_books/protection_2"
+																																																																																					"model": "rgt:item/enchanted_books/projectile_protection_3"
 																																																																																				},
 																																																																																				"on_false": {
 																																																																																					"type": "minecraft:condition",
 																																																																																					"property": "minecraft:component",
 																																																																																					"predicate": "minecraft:stored_enchantments",
 																																																																																					"value": [{
-																																																																																							"enchantments": "minecraft:protection",
-																																																																																							"levels": {"min": 3, "max": 3}
+																																																																																							"enchantments": "minecraft:projectile_protection",
+																																																																																							"levels": {"min": 4, "max": 4}
 																																																																																					}],
 																																																																																					"on_true": {
 																																																																																						"type": "minecraft:model",
-																																																																																						"model": "rgt:item/enchanted_books/protection_3"
+																																																																																						"model": "rgt:item/enchanted_books/projectile_protection_4"
 																																																																																					},
 																																																																																					"on_false": {
 																																																																																						"type": "minecraft:condition",
@@ -1017,47 +1027,47 @@
 																																																																																						"predicate": "minecraft:stored_enchantments",
 																																																																																						"value": [{
 																																																																																								"enchantments": "minecraft:protection",
-																																																																																								"levels": {"min": 4, "max": 4}
+																																																																																								"levels": {"min": 1, "max": 1}
 																																																																																						}],
 																																																																																						"on_true": {
 																																																																																							"type": "minecraft:model",
-																																																																																							"model": "rgt:item/enchanted_books/protection_4"
+																																																																																							"model": "rgt:item/enchanted_books/protection_1"
 																																																																																						},
 																																																																																						"on_false": {
 																																																																																							"type": "minecraft:condition",
 																																																																																							"property": "minecraft:component",
 																																																																																							"predicate": "minecraft:stored_enchantments",
 																																																																																							"value": [{
-																																																																																									"enchantments": "minecraft:impaling",
-																																																																																									"levels": {"min": 1, "max": 1}
+																																																																																									"enchantments": "minecraft:protection",
+																																																																																									"levels": {"min": 2, "max": 2}
 																																																																																							}],
 																																																																																							"on_true": {
 																																																																																								"type": "minecraft:model",
-																																																																																								"model": "rgt:item/enchanted_books/impaling_1"
+																																																																																								"model": "rgt:item/enchanted_books/protection_2"
 																																																																																							},
 																																																																																							"on_false": {
 																																																																																								"type": "minecraft:condition",
 																																																																																								"property": "minecraft:component",
 																																																																																								"predicate": "minecraft:stored_enchantments",
 																																																																																								"value": [{
-																																																																																										"enchantments": "minecraft:impaling",
-																																																																																										"levels": {"min": 2, "max": 2}
+																																																																																										"enchantments": "minecraft:protection",
+																																																																																										"levels": {"min": 3, "max": 3}
 																																																																																								}],
 																																																																																								"on_true": {
 																																																																																									"type": "minecraft:model",
-																																																																																									"model": "rgt:item/enchanted_books/impaling_2"
+																																																																																									"model": "rgt:item/enchanted_books/protection_3"
 																																																																																								},
 																																																																																								"on_false": {
 																																																																																									"type": "minecraft:condition",
 																																																																																									"property": "minecraft:component",
 																																																																																									"predicate": "minecraft:stored_enchantments",
 																																																																																									"value": [{
-																																																																																											"enchantments": "minecraft:impaling",
-																																																																																											"levels": {"min": 3, "max": 3}
+																																																																																											"enchantments": "minecraft:protection",
+																																																																																											"levels": {"min": 4, "max": 4}
 																																																																																									}],
 																																																																																									"on_true": {
 																																																																																										"type": "minecraft:model",
-																																																																																										"model": "rgt:item/enchanted_books/impaling_3"
+																																																																																										"model": "rgt:item/enchanted_books/protection_4"
 																																																																																									},
 																																																																																									"on_false": {
 																																																																																										"type": "minecraft:condition",
@@ -1065,11 +1075,11 @@
 																																																																																										"predicate": "minecraft:stored_enchantments",
 																																																																																										"value": [{
 																																																																																												"enchantments": "minecraft:impaling",
-																																																																																												"levels": {"min": 4, "max": 4}
+																																																																																												"levels": {"min": 1, "max": 1}
 																																																																																										}],
 																																																																																										"on_true": {
 																																																																																											"type": "minecraft:model",
-																																																																																											"model": "rgt:item/enchanted_books/impaling_4"
+																																																																																											"model": "rgt:item/enchanted_books/impaling_1"
 																																																																																										},
 																																																																																										"on_false": {
 																																																																																											"type": "minecraft:condition",
@@ -1077,47 +1087,47 @@
 																																																																																											"predicate": "minecraft:stored_enchantments",
 																																																																																											"value": [{
 																																																																																													"enchantments": "minecraft:impaling",
-																																																																																													"levels": {"min": 5, "max": 5}
+																																																																																													"levels": {"min": 2, "max": 2}
 																																																																																											}],
 																																																																																											"on_true": {
 																																																																																												"type": "minecraft:model",
-																																																																																												"model": "rgt:item/enchanted_books/impaling_5"
+																																																																																												"model": "rgt:item/enchanted_books/impaling_2"
 																																																																																											},
 																																																																																											"on_false": {
 																																																																																												"type": "minecraft:condition",
 																																																																																												"property": "minecraft:component",
 																																																																																												"predicate": "minecraft:stored_enchantments",
 																																																																																												"value": [{
-																																																																																														"enchantments": "minecraft:power",
-																																																																																														"levels": {"min": 1, "max": 1}
+																																																																																														"enchantments": "minecraft:impaling",
+																																																																																														"levels": {"min": 3, "max": 3}
 																																																																																												}],
 																																																																																												"on_true": {
 																																																																																													"type": "minecraft:model",
-																																																																																													"model": "rgt:item/enchanted_books/power_1"
+																																																																																													"model": "rgt:item/enchanted_books/impaling_3"
 																																																																																												},
 																																																																																												"on_false": {
 																																																																																													"type": "minecraft:condition",
 																																																																																													"property": "minecraft:component",
 																																																																																													"predicate": "minecraft:stored_enchantments",
 																																																																																													"value": [{
-																																																																																															"enchantments": "minecraft:power",
-																																																																																															"levels": {"min": 2, "max": 2}
+																																																																																															"enchantments": "minecraft:impaling",
+																																																																																															"levels": {"min": 4, "max": 4}
 																																																																																													}],
 																																																																																													"on_true": {
 																																																																																														"type": "minecraft:model",
-																																																																																														"model": "rgt:item/enchanted_books/power_2"
+																																																																																														"model": "rgt:item/enchanted_books/impaling_4"
 																																																																																													},
 																																																																																													"on_false": {
 																																																																																														"type": "minecraft:condition",
 																																																																																														"property": "minecraft:component",
 																																																																																														"predicate": "minecraft:stored_enchantments",
 																																																																																														"value": [{
-																																																																																																"enchantments": "minecraft:power",
-																																																																																																"levels": {"min": 3, "max": 3}
+																																																																																																"enchantments": "minecraft:impaling",
+																																																																																																"levels": {"min": 5, "max": 5}
 																																																																																														}],
 																																																																																														"on_true": {
 																																																																																															"type": "minecraft:model",
-																																																																																															"model": "rgt:item/enchanted_books/power_3"
+																																																																																															"model": "rgt:item/enchanted_books/impaling_5"
 																																																																																														},
 																																																																																														"on_false": {
 																																																																																															"type": "minecraft:condition",
@@ -1125,11 +1135,11 @@
 																																																																																															"predicate": "minecraft:stored_enchantments",
 																																																																																															"value": [{
 																																																																																																	"enchantments": "minecraft:power",
-																																																																																																	"levels": {"min": 4, "max": 4}
+																																																																																																	"levels": {"min": 1, "max": 1}
 																																																																																															}],
 																																																																																															"on_true": {
 																																																																																																"type": "minecraft:model",
-																																																																																																"model": "rgt:item/enchanted_books/power_4"
+																																																																																																"model": "rgt:item/enchanted_books/power_1"
 																																																																																															},
 																																																																																															"on_false": {
 																																																																																																"type": "minecraft:condition",
@@ -1137,47 +1147,47 @@
 																																																																																																"predicate": "minecraft:stored_enchantments",
 																																																																																																"value": [{
 																																																																																																		"enchantments": "minecraft:power",
-																																																																																																		"levels": {"min": 5, "max": 5}
+																																																																																																		"levels": {"min": 2, "max": 2}
 																																																																																																}],
 																																																																																																"on_true": {
 																																																																																																	"type": "minecraft:model",
-																																																																																																	"model": "rgt:item/enchanted_books/power_5"
+																																																																																																	"model": "rgt:item/enchanted_books/power_2"
 																																																																																																},
 																																																																																																"on_false": {
 																																																																																																	"type": "minecraft:condition",
 																																																																																																	"property": "minecraft:component",
 																																																																																																	"predicate": "minecraft:stored_enchantments",
 																																																																																																	"value": [{
-																																																																																																			"enchantments": "minecraft:sharpness",
-																																																																																																			"levels": {"min": 1, "max": 1}
+																																																																																																			"enchantments": "minecraft:power",
+																																																																																																			"levels": {"min": 3, "max": 3}
 																																																																																																	}],
 																																																																																																	"on_true": {
 																																																																																																		"type": "minecraft:model",
-																																																																																																		"model": "rgt:item/enchanted_books/sharpness_1"
+																																																																																																		"model": "rgt:item/enchanted_books/power_3"
 																																																																																																	},
 																																																																																																	"on_false": {
 																																																																																																		"type": "minecraft:condition",
 																																																																																																		"property": "minecraft:component",
 																																																																																																		"predicate": "minecraft:stored_enchantments",
 																																																																																																		"value": [{
-																																																																																																				"enchantments": "minecraft:sharpness",
-																																																																																																				"levels": {"min": 2, "max": 2}
+																																																																																																				"enchantments": "minecraft:power",
+																																																																																																				"levels": {"min": 4, "max": 4}
 																																																																																																		}],
 																																																																																																		"on_true": {
 																																																																																																			"type": "minecraft:model",
-																																																																																																			"model": "rgt:item/enchanted_books/sharpness_2"
+																																																																																																			"model": "rgt:item/enchanted_books/power_4"
 																																																																																																		},
 																																																																																																		"on_false": {
 																																																																																																			"type": "minecraft:condition",
 																																																																																																			"property": "minecraft:component",
 																																																																																																			"predicate": "minecraft:stored_enchantments",
 																																																																																																			"value": [{
-																																																																																																					"enchantments": "minecraft:sharpness",
-																																																																																																					"levels": {"min": 3, "max": 3}
+																																																																																																					"enchantments": "minecraft:power",
+																																																																																																					"levels": {"min": 5, "max": 5}
 																																																																																																			}],
 																																																																																																			"on_true": {
 																																																																																																				"type": "minecraft:model",
-																																																																																																				"model": "rgt:item/enchanted_books/sharpness_3"
+																																																																																																				"model": "rgt:item/enchanted_books/power_5"
 																																																																																																			},
 																																																																																																			"on_false": {
 																																																																																																				"type": "minecraft:condition",
@@ -1185,11 +1195,11 @@
 																																																																																																				"predicate": "minecraft:stored_enchantments",
 																																																																																																				"value": [{
 																																																																																																						"enchantments": "minecraft:sharpness",
-																																																																																																						"levels": {"min": 4, "max": 4}
+																																																																																																						"levels": {"min": 1, "max": 1}
 																																																																																																				}],
 																																																																																																				"on_true": {
 																																																																																																					"type": "minecraft:model",
-																																																																																																					"model": "rgt:item/enchanted_books/sharpness_4"
+																																																																																																					"model": "rgt:item/enchanted_books/sharpness_1"
 																																																																																																				},
 																																																																																																				"on_false": {
 																																																																																																					"type": "minecraft:condition",
@@ -1197,47 +1207,47 @@
 																																																																																																					"predicate": "minecraft:stored_enchantments",
 																																																																																																					"value": [{
 																																																																																																							"enchantments": "minecraft:sharpness",
-																																																																																																							"levels": {"min": 5, "max": 5}
+																																																																																																							"levels": {"min": 2, "max": 2}
 																																																																																																					}],
 																																																																																																					"on_true": {
 																																																																																																						"type": "minecraft:model",
-																																																																																																						"model": "rgt:item/enchanted_books/sharpness_5"
+																																																																																																						"model": "rgt:item/enchanted_books/sharpness_2"
 																																																																																																					},
 																																																																																																					"on_false": {
 																																																																																																						"type": "minecraft:condition",
 																																																																																																						"property": "minecraft:component",
 																																																																																																						"predicate": "minecraft:stored_enchantments",
 																																																																																																						"value": [{
-																																																																																																								"enchantments": "minecraft:smite",
-																																																																																																								"levels": {"min": 1, "max": 1}
+																																																																																																								"enchantments": "minecraft:sharpness",
+																																																																																																								"levels": {"min": 3, "max": 3}
 																																																																																																						}],
 																																																																																																						"on_true": {
 																																																																																																							"type": "minecraft:model",
-																																																																																																							"model": "rgt:item/enchanted_books/smite_1"
+																																																																																																							"model": "rgt:item/enchanted_books/sharpness_3"
 																																																																																																						},
 																																																																																																						"on_false": {
 																																																																																																							"type": "minecraft:condition",
 																																																																																																							"property": "minecraft:component",
 																																																																																																							"predicate": "minecraft:stored_enchantments",
 																																																																																																							"value": [{
-																																																																																																									"enchantments": "minecraft:smite",
-																																																																																																									"levels": {"min": 2, "max": 2}
+																																																																																																									"enchantments": "minecraft:sharpness",
+																																																																																																									"levels": {"min": 4, "max": 4}
 																																																																																																							}],
 																																																																																																							"on_true": {
 																																																																																																								"type": "minecraft:model",
-																																																																																																								"model": "rgt:item/enchanted_books/smite_2"
+																																																																																																								"model": "rgt:item/enchanted_books/sharpness_4"
 																																																																																																							},
 																																																																																																							"on_false": {
 																																																																																																								"type": "minecraft:condition",
 																																																																																																								"property": "minecraft:component",
 																																																																																																								"predicate": "minecraft:stored_enchantments",
 																																																																																																								"value": [{
-																																																																																																										"enchantments": "minecraft:smite",
-																																																																																																										"levels": {"min": 3, "max": 3}
+																																																																																																										"enchantments": "minecraft:sharpness",
+																																																																																																										"levels": {"min": 5, "max": 5}
 																																																																																																								}],
 																																																																																																								"on_true": {
 																																																																																																									"type": "minecraft:model",
-																																																																																																									"model": "rgt:item/enchanted_books/smite_3"
+																																																																																																									"model": "rgt:item/enchanted_books/sharpness_5"
 																																																																																																								},
 																																																																																																								"on_false": {
 																																																																																																									"type": "minecraft:condition",
@@ -1245,11 +1255,11 @@
 																																																																																																									"predicate": "minecraft:stored_enchantments",
 																																																																																																									"value": [{
 																																																																																																											"enchantments": "minecraft:smite",
-																																																																																																											"levels": {"min": 4, "max": 4}
+																																																																																																											"levels": {"min": 1, "max": 1}
 																																																																																																									}],
 																																																																																																									"on_true": {
 																																																																																																										"type": "minecraft:model",
-																																																																																																										"model": "rgt:item/enchanted_books/smite_4"
+																																																																																																										"model": "rgt:item/enchanted_books/smite_1"
 																																																																																																									},
 																																																																																																									"on_false": {
 																																																																																																										"type": "minecraft:condition",
@@ -1257,47 +1267,47 @@
 																																																																																																										"predicate": "minecraft:stored_enchantments",
 																																																																																																										"value": [{
 																																																																																																												"enchantments": "minecraft:smite",
-																																																																																																												"levels": {"min": 5, "max": 5}
+																																																																																																												"levels": {"min": 2, "max": 2}
 																																																																																																										}],
 																																																																																																										"on_true": {
 																																																																																																											"type": "minecraft:model",
-																																																																																																											"model": "rgt:item/enchanted_books/smite_5"
+																																																																																																											"model": "rgt:item/enchanted_books/smite_2"
 																																																																																																										},
 																																																																																																										"on_false": {
 																																																																																																											"type": "minecraft:condition",
 																																																																																																											"property": "minecraft:component",
 																																																																																																											"predicate": "minecraft:stored_enchantments",
 																																																																																																											"value": [{
-																																																																																																													"enchantments": "minecraft:bane_of_arthropods",
-																																																																																																													"levels": {"min": 1, "max": 1}
+																																																																																																													"enchantments": "minecraft:smite",
+																																																																																																													"levels": {"min": 3, "max": 3}
 																																																																																																											}],
 																																																																																																											"on_true": {
 																																																																																																												"type": "minecraft:model",
-																																																																																																												"model": "rgt:item/enchanted_books/bane_of_arthropods_1"
+																																																																																																												"model": "rgt:item/enchanted_books/smite_3"
 																																																																																																											},
 																																																																																																											"on_false": {
 																																																																																																												"type": "minecraft:condition",
 																																																																																																												"property": "minecraft:component",
 																																																																																																												"predicate": "minecraft:stored_enchantments",
 																																																																																																												"value": [{
-																																																																																																														"enchantments": "minecraft:bane_of_arthropods",
-																																																																																																														"levels": {"min": 2, "max": 2}
+																																																																																																														"enchantments": "minecraft:smite",
+																																																																																																														"levels": {"min": 4, "max": 4}
 																																																																																																												}],
 																																																																																																												"on_true": {
 																																																																																																													"type": "minecraft:model",
-																																																																																																													"model": "rgt:item/enchanted_books/bane_of_arthropods_2"
+																																																																																																													"model": "rgt:item/enchanted_books/smite_4"
 																																																																																																												},
 																																																																																																												"on_false": {
 																																																																																																													"type": "minecraft:condition",
 																																																																																																													"property": "minecraft:component",
 																																																																																																													"predicate": "minecraft:stored_enchantments",
 																																																																																																													"value": [{
-																																																																																																															"enchantments": "minecraft:bane_of_arthropods",
-																																																																																																															"levels": {"min": 3, "max": 3}
+																																																																																																															"enchantments": "minecraft:smite",
+																																																																																																															"levels": {"min": 5, "max": 5}
 																																																																																																													}],
 																																																																																																													"on_true": {
 																																																																																																														"type": "minecraft:model",
-																																																																																																														"model": "rgt:item/enchanted_books/bane_of_arthropods_3"
+																																																																																																														"model": "rgt:item/enchanted_books/smite_5"
 																																																																																																													},
 																																																																																																													"on_false": {
 																																																																																																														"type": "minecraft:condition",
@@ -1305,11 +1315,11 @@
 																																																																																																														"predicate": "minecraft:stored_enchantments",
 																																																																																																														"value": [{
 																																																																																																																"enchantments": "minecraft:bane_of_arthropods",
-																																																																																																																"levels": {"min": 4, "max": 4}
+																																																																																																																"levels": {"min": 1, "max": 1}
 																																																																																																														}],
 																																																																																																														"on_true": {
 																																																																																																															"type": "minecraft:model",
-																																																																																																															"model": "rgt:item/enchanted_books/bane_of_arthropods_4"
+																																																																																																															"model": "rgt:item/enchanted_books/bane_of_arthropods_1"
 																																																																																																														},
 																																																																																																														"on_false": {
 																																																																																																															"type": "minecraft:condition",
@@ -1317,47 +1327,47 @@
 																																																																																																															"predicate": "minecraft:stored_enchantments",
 																																																																																																															"value": [{
 																																																																																																																	"enchantments": "minecraft:bane_of_arthropods",
-																																																																																																																	"levels": {"min": 5, "max": 5}
+																																																																																																																	"levels": {"min": 2, "max": 2}
 																																																																																																															}],
 																																																																																																															"on_true": {
 																																																																																																																"type": "minecraft:model",
-																																																																																																																"model": "rgt:item/enchanted_books/bane_of_arthropods_5"
+																																																																																																																"model": "rgt:item/enchanted_books/bane_of_arthropods_2"
 																																																																																																															},
 																																																																																																															"on_false": {
 																																																																																																																"type": "minecraft:condition",
 																																																																																																																"property": "minecraft:component",
 																																																																																																																"predicate": "minecraft:stored_enchantments",
 																																																																																																																"value": [{
-																																																																																																																		"enchantments": "minecraft:efficiency",
-																																																																																																																		"levels": {"min": 1, "max": 1}
+																																																																																																																		"enchantments": "minecraft:bane_of_arthropods",
+																																																																																																																		"levels": {"min": 3, "max": 3}
 																																																																																																																}],
 																																																																																																																"on_true": {
 																																																																																																																	"type": "minecraft:model",
-																																																																																																																	"model": "rgt:item/enchanted_books/efficiency_1"
+																																																																																																																	"model": "rgt:item/enchanted_books/bane_of_arthropods_3"
 																																																																																																																},
 																																																																																																																"on_false": {
 																																																																																																																	"type": "minecraft:condition",
 																																																																																																																	"property": "minecraft:component",
 																																																																																																																	"predicate": "minecraft:stored_enchantments",
 																																																																																																																	"value": [{
-																																																																																																																			"enchantments": "minecraft:efficiency",
-																																																																																																																			"levels": {"min": 2, "max": 2}
+																																																																																																																			"enchantments": "minecraft:bane_of_arthropods",
+																																																																																																																			"levels": {"min": 4, "max": 4}
 																																																																																																																	}],
 																																																																																																																	"on_true": {
 																																																																																																																		"type": "minecraft:model",
-																																																																																																																		"model": "rgt:item/enchanted_books/efficiency_2"
+																																																																																																																		"model": "rgt:item/enchanted_books/bane_of_arthropods_4"
 																																																																																																																	},
 																																																																																																																	"on_false": {
 																																																																																																																		"type": "minecraft:condition",
 																																																																																																																		"property": "minecraft:component",
 																																																																																																																		"predicate": "minecraft:stored_enchantments",
 																																																																																																																		"value": [{
-																																																																																																																				"enchantments": "minecraft:efficiency",
-																																																																																																																				"levels": {"min": 3, "max": 3}
+																																																																																																																				"enchantments": "minecraft:bane_of_arthropods",
+																																																																																																																				"levels": {"min": 5, "max": 5}
 																																																																																																																		}],
 																																																																																																																		"on_true": {
 																																																																																																																			"type": "minecraft:model",
-																																																																																																																			"model": "rgt:item/enchanted_books/efficiency_3"
+																																																																																																																			"model": "rgt:item/enchanted_books/bane_of_arthropods_5"
 																																																																																																																		},
 																																																																																																																		"on_false": {
 																																																																																																																			"type": "minecraft:condition",
@@ -1365,11 +1375,11 @@
 																																																																																																																			"predicate": "minecraft:stored_enchantments",
 																																																																																																																			"value": [{
 																																																																																																																					"enchantments": "minecraft:efficiency",
-																																																																																																																					"levels": {"min": 4, "max": 4}
+																																																																																																																					"levels": {"min": 1, "max": 1}
 																																																																																																																			}],
 																																																																																																																			"on_true": {
 																																																																																																																				"type": "minecraft:model",
-																																																																																																																				"model": "rgt:item/enchanted_books/efficiency_4"
+																																																																																																																				"model": "rgt:item/enchanted_books/efficiency_1"
 																																																																																																																			},
 																																																																																																																			"on_false": {
 																																																																																																																				"type": "minecraft:condition",
@@ -1377,135 +1387,174 @@
 																																																																																																																				"predicate": "minecraft:stored_enchantments",
 																																																																																																																				"value": [{
 																																																																																																																						"enchantments": "minecraft:efficiency",
-																																																																																																																						"levels": {"min": 5, "max": 5}
+																																																																																																																						"levels": {"min": 2, "max": 2}
 																																																																																																																				}],
 																																																																																																																				"on_true": {
 																																																																																																																					"type": "minecraft:model",
-																																																																																																																					"model": "rgt:item/enchanted_books/efficiency_5"
+																																																																																																																					"model": "rgt:item/enchanted_books/efficiency_2"
 																																																																																																																				},
 																																																																																																																				"on_false": {
 																																																																																																																					"type": "minecraft:condition",
 																																																																																																																					"property": "minecraft:component",
 																																																																																																																					"predicate": "minecraft:stored_enchantments",
 																																																																																																																					"value": [{
-																																																																																																																							"enchantments": "minecraft:luck_of_the_sea",
-																																																																																																																							"levels": {"min": 1, "max": 1}
+																																																																																																																							"enchantments": "minecraft:efficiency",
+																																																																																																																							"levels": {"min": 3, "max": 3}
 																																																																																																																					}],
 																																																																																																																					"on_true": {
 																																																																																																																						"type": "minecraft:model",
-																																																																																																																						"model": "rgt:item/enchanted_books/luck_of_the_sea_1"
+																																																																																																																						"model": "rgt:item/enchanted_books/efficiency_3"
 																																																																																																																					},
 																																																																																																																					"on_false": {
 																																																																																																																						"type": "minecraft:condition",
 																																																																																																																						"property": "minecraft:component",
 																																																																																																																						"predicate": "minecraft:stored_enchantments",
 																																																																																																																						"value": [{
-																																																																																																																								"enchantments": "minecraft:luck_of_the_sea",
-																																																																																																																								"levels": {"min": 2, "max": 2}
+																																																																																																																								"enchantments": "minecraft:efficiency",
+																																																																																																																								"levels": {"min": 4, "max": 4}
 																																																																																																																						}],
 																																																																																																																						"on_true": {
 																																																																																																																							"type": "minecraft:model",
-																																																																																																																							"model": "rgt:item/enchanted_books/luck_of_the_sea_2"
+																																																																																																																							"model": "rgt:item/enchanted_books/efficiency_4"
 																																																																																																																						},
 																																																																																																																						"on_false": {
 																																																																																																																							"type": "minecraft:condition",
 																																																																																																																							"property": "minecraft:component",
 																																																																																																																							"predicate": "minecraft:stored_enchantments",
 																																																																																																																							"value": [{
-																																																																																																																									"enchantments": "minecraft:luck_of_the_sea",
-																																																																																																																									"levels": {"min": 3, "max": 3}
+																																																																																																																									"enchantments": "minecraft:efficiency",
+																																																																																																																									"levels": {"min": 5, "max": 5}
 																																																																																																																							}],
 																																																																																																																							"on_true": {
 																																																																																																																								"type": "minecraft:model",
-																																																																																																																								"model": "rgt:item/enchanted_books/luck_of_the_sea_3"
+																																																																																																																								"model": "rgt:item/enchanted_books/efficiency_5"
 																																																																																																																							},
 																																																																																																																							"on_false": {
 																																																																																																																								"type": "minecraft:condition",
 																																																																																																																								"property": "minecraft:component",
 																																																																																																																								"predicate": "minecraft:stored_enchantments",
 																																																																																																																								"value": [{
-																																																																																																																										"enchantments": "minecraft:lure",
+																																																																																																																										"enchantments": "minecraft:luck_of_the_sea",
 																																																																																																																										"levels": {"min": 1, "max": 1}
 																																																																																																																								}],
 																																																																																																																								"on_true": {
 																																																																																																																									"type": "minecraft:model",
-																																																																																																																									"model": "rgt:item/enchanted_books/lure_1"
+																																																																																																																									"model": "rgt:item/enchanted_books/luck_of_the_sea_1"
 																																																																																																																								},
 																																																																																																																								"on_false": {
 																																																																																																																									"type": "minecraft:condition",
 																																																																																																																									"property": "minecraft:component",
 																																																																																																																									"predicate": "minecraft:stored_enchantments",
 																																																																																																																									"value": [{
-																																																																																																																											"enchantments": "minecraft:lure",
+																																																																																																																											"enchantments": "minecraft:luck_of_the_sea",
 																																																																																																																											"levels": {"min": 2, "max": 2}
 																																																																																																																									}],
 																																																																																																																									"on_true": {
 																																																																																																																										"type": "minecraft:model",
-																																																																																																																										"model": "rgt:item/enchanted_books/lure_2"
+																																																																																																																										"model": "rgt:item/enchanted_books/luck_of_the_sea_2"
 																																																																																																																									},
 																																																																																																																									"on_false": {
 																																																																																																																										"type": "minecraft:condition",
 																																																																																																																										"property": "minecraft:component",
 																																																																																																																										"predicate": "minecraft:stored_enchantments",
 																																																																																																																										"value": [{
-																																																																																																																												"enchantments": "minecraft:lure",
+																																																																																																																												"enchantments": "minecraft:luck_of_the_sea",
 																																																																																																																												"levels": {"min": 3, "max": 3}
 																																																																																																																										}],
 																																																																																																																										"on_true": {
 																																																																																																																											"type": "minecraft:model",
-																																																																																																																											"model": "rgt:item/enchanted_books/lure_3"
+																																																																																																																											"model": "rgt:item/enchanted_books/luck_of_the_sea_3"
 																																																																																																																										},
 																																																																																																																										"on_false": {
 																																																																																																																											"type": "minecraft:condition",
 																																																																																																																											"property": "minecraft:component",
 																																																																																																																											"predicate": "minecraft:stored_enchantments",
 																																																																																																																											"value": [{
-																																																																																																																													"enchantments": "minecraft:mending",
+																																																																																																																													"enchantments": "minecraft:lure",
 																																																																																																																													"levels": {"min": 1, "max": 1}
 																																																																																																																											}],
 																																																																																																																											"on_true": {
 																																																																																																																												"type": "minecraft:model",
-																																																																																																																												"model": "rgt:item/enchanted_books/mending"
+																																																																																																																												"model": "rgt:item/enchanted_books/lure_1"
 																																																																																																																											},
 																																																																																																																											"on_false": {
 																																																																																																																												"type": "minecraft:condition",
 																																																																																																																												"property": "minecraft:component",
 																																																																																																																												"predicate": "minecraft:stored_enchantments",
 																																																																																																																												"value": [{
-																																																																																																																														"enchantments": "minecraft:unbreaking",
-																																																																																																																														"levels": {"min": 1, "max": 1}
+																																																																																																																														"enchantments": "minecraft:lure",
+																																																																																																																														"levels": {"min": 2, "max": 2}
 																																																																																																																												}],
 																																																																																																																												"on_true": {
 																																																																																																																													"type": "minecraft:model",
-																																																																																																																													"model": "rgt:item/enchanted_books/unbreaking_1"
+																																																																																																																													"model": "rgt:item/enchanted_books/lure_2"
 																																																																																																																												},
 																																																																																																																												"on_false": {
 																																																																																																																													"type": "minecraft:condition",
 																																																																																																																													"property": "minecraft:component",
 																																																																																																																													"predicate": "minecraft:stored_enchantments",
 																																																																																																																													"value": [{
-																																																																																																																															"enchantments": "minecraft:unbreaking",
-																																																																																																																															"levels": {"min": 2, "max": 2}
+																																																																																																																															"enchantments": "minecraft:lure",
+																																																																																																																															"levels": {"min": 3, "max": 3}
 																																																																																																																													}],
 																																																																																																																													"on_true": {
 																																																																																																																														"type": "minecraft:model",
-																																																																																																																														"model": "rgt:item/enchanted_books/unbreaking_2"
+																																																																																																																														"model": "rgt:item/enchanted_books/lure_3"
 																																																																																																																													},
 																																																																																																																													"on_false": {
 																																																																																																																														"type": "minecraft:condition",
 																																																																																																																														"property": "minecraft:component",
 																																																																																																																														"predicate": "minecraft:stored_enchantments",
 																																																																																																																														"value": [{
-																																																																																																																																"enchantments": "minecraft:unbreaking",
-																																																																																																																																"levels": {"min": 3, "max": 3}
+																																																																																																																																"enchantments": "minecraft:mending",
+																																																																																																																																"levels": {"min": 1, "max": 1}
 																																																																																																																														}],
 																																																																																																																														"on_true": {
 																																																																																																																															"type": "minecraft:model",
-																																																																																																																															"model": "rgt:item/enchanted_books/unbreaking_3"
+																																																																																																																															"model": "rgt:item/enchanted_books/mending"
 																																																																																																																														},
 																																																																																																																														"on_false": {
-																																																																																																																															"model": "minecraft:items/enchanted_book",
-																																																																																																																															"type": "minecraft:model"
+																																																																																																																															"type": "minecraft:condition",
+																																																																																																																															"property": "minecraft:component",
+																																																																																																																															"predicate": "minecraft:stored_enchantments",
+																																																																																																																															"value": [{
+																																																																																																																																	"enchantments": "minecraft:unbreaking",
+																																																																																																																																	"levels": {"min": 1, "max": 1}
+																																																																																																																															}],
+																																																																																																																															"on_true": {
+																																																																																																																																"type": "minecraft:model",
+																																																																																																																																"model": "rgt:item/enchanted_books/unbreaking_1"
+																																																																																																																															},
+																																																																																																																															"on_false": {
+																																																																																																																																"type": "minecraft:condition",
+																																																																																																																																"property": "minecraft:component",
+																																																																																																																																"predicate": "minecraft:stored_enchantments",
+																																																																																																																																"value": [{
+																																																																																																																																		"enchantments": "minecraft:unbreaking",
+																																																																																																																																		"levels": {"min": 2, "max": 2}
+																																																																																																																																}],
+																																																																																																																																"on_true": {
+																																																																																																																																	"type": "minecraft:model",
+																																																																																																																																	"model": "rgt:item/enchanted_books/unbreaking_2"
+																																																																																																																																},
+																																																																																																																																"on_false": {
+																																																																																																																																	"type": "minecraft:condition",
+																																																																																																																																	"property": "minecraft:component",
+																																																																																																																																	"predicate": "minecraft:stored_enchantments",
+																																																																																																																																	"value": [{
+																																																																																																																																			"enchantments": "minecraft:unbreaking",
+																																																																																																																																			"levels": {"min": 3, "max": 3}
+																																																																																																																																	}],
+																																																																																																																																	"on_true": {
+																																																																																																																																		"type": "minecraft:model",
+																																																																																																																																		"model": "rgt:item/enchanted_books/unbreaking_3"
+																																																																																																																																	},
+																																																																																																																																	"on_false": {
+																																																																																																																																		"model": "minecraft:items/enchanted_book",
+																																																																																																																																		"type": "minecraft:model"
+																																																																																																																																	}
+																																																																																																																																}
+																																																																																																																															}
 																																																																																																																														}
 																																																																																																																													}
 																																																																																																																												}

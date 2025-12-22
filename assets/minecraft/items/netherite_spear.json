@@ -55,7 +55,7 @@
         }
       },
       {
-        "when": "Halberd",
+        "when": ["Halberd", "Gilden Dragon Lily"],
         "model": {
           "type": "minecraft:select",
         "cases": [
