@@ -27,8 +27,6 @@
 				"type": "minecraft:model",
 				"model": "rgt:item/enchanted_books/curse_of_binding"
 			},
-
-
 			"on_false": {
 				"type": "minecraft:condition",
 				"property": "minecraft:component",
@@ -1550,7 +1548,7 @@
 																																																																																																																																		"model": "rgt:item/enchanted_books/unbreaking_3"
 																																																																																																																																	},
 																																																																																																																																	"on_false": {
-																																																																																																																																		"model": "minecraft:items/enchanted_book",
+																																																																																																																																		"model": "rgt:item/enchanted_books/default_enchanted_book",
 																																																																																																																																		"type": "minecraft:model"
 																																																																																																																																	}
 																																																																																																																																}
