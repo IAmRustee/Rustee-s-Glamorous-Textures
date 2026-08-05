@@ -55,7 +55,7 @@
         }
       },
       {
-        "when": ["Halberd", "Gilden Dragon Lily"],
+        "when": ["Halberd", "Gilden Dragon Lily", "Pharoah's Scepter"],
         "model": {
           "type": "minecraft:select",
         "cases": [
@@ -130,7 +130,7 @@
         }
       },
       {
-        "when": "War Scythe",
+        "when": ["War Scythe"],
         "model":{
           "type": "minecraft:select",
           "cases": [
@@ -150,6 +150,106 @@
           "fallback": {
             "type": "minecraft:model",
             "model": "rgt:item/spears/in_hand/war_scythe_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": ["Naginata", "Dragonstabber"],
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/naginata_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/naginata_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": ["Wootz"],
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/wootz_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/wootz_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": ["Yari"],
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/yari_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/yari_spear_in_hand"
+          },
+          "property": "minecraft:display_context"
+        }
+      },
+      {
+        "when": ["Ji"],
+        "model":{
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rgt:item/spears/item/ji_spear"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rgt:item/spears/in_hand/ji_spear_in_hand"
           },
           "property": "minecraft:display_context"
         }
@@ -173,7 +273,7 @@
       ], 
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/netherite_spear_in_hand" 
+        "model": "minecraft:item/netherite_spear_in_hand"
       },
       "property": "minecraft:display_context"
     },
