@@ -1,0 +1,6 @@
+{
+  "parent": "rgt:parent/handheld_gold_mace",
+  "textures": {
+    "layer0": "rgt:item/easter_eggs/weapons/gold_mace"
+  }
+}

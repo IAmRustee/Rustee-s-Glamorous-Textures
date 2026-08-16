@@ -2,7 +2,7 @@
 	"model": {
 		"type": "minecraft:select",
 		"property": "minecraft:component",
-		"component":"minecraft:custom_name",
+		"component": "minecraft:custom_name",
 		"cases": [
 			{
 				"when": "Totem of Slashkig",
