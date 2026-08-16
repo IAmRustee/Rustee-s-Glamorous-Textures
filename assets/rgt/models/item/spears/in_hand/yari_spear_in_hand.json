@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/spear_in_hand",
+  "parent": "rgt:parent/custom_spear_in_hand",
   "textures": {
     "layer0": "rgt:item/spears/in_hand/yari_spear_in_hand"
   }

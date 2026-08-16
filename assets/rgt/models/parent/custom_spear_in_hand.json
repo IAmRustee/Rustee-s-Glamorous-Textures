@@ -13,12 +13,12 @@
       "scale": [ 1.36, 1.36, 0.68 ]
     },
     "thirdperson_righthand": {
-      "rotation": [ 5, -100, -40 ],
+      "rotation": [ -5, 90, -40 ],
       "translation": [ 0, 2, 2 ],
       "scale": [1.7, 1.7, 0.85 ]
     },
     "thirdperson_lefthand": {
-      "rotation": [ 5, 100, 40 ],
+      "rotation": [ -5, -90, 40 ],
       "translation": [ 0, 2, 2 ],
       "scale": [1.7, 1.7, 0.85 ]
     }
